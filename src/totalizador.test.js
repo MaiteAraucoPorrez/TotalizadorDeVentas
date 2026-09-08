@@ -132,8 +132,13 @@ describe("Totalizar", () => {
   });
 
   it("deberia obtener el porcentaje de descuento para la categoria de Alimentos", () => {
-    const totalizador = new Totalizador(100, 10, "CA", "Alimentos"); //neto: 1000
+    const totalizador = new Totalizador(100, 10, "CA", "Alimentos");
     expect(totalizador.obtenerPorcentajeDescuentoAdicionalCategoria()).toEqual(2);
+  });
+
+  it("deberia obtener el porcentaje de descuento para la categoria de Material de escritorio", () => {
+    const totalizador = new Totalizador(100, 10, "CA", "Material de escritorio");
+    expect(totalizador.obtenerPorcentajeDescuentoAdicionalCategoria()).toEqual(1.5);
   });
 
 });

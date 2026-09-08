@@ -77,7 +77,12 @@ class Totalizador {
     }
 
     obtenerPorcentajeDescuentoAdicionalCategoria() {
+        if (this.categoria === "Alimentos") {
         return 2;
+        } else if (this.categoria === "Material de escritorio") {
+            return 1.5;
+        }
+        return 0;
     }
 
     calcularPrecioTotal() {

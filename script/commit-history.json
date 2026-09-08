@@ -798,12 +798,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e3813fd5af7f88abc196047ec145cd25c3306a63",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T15:11:15.000Z",
       "message": "feat: obtener porcentaje de descuento adicional por categoria de producto Alimentos",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/e3813fd5af7f88abc196047ec145cd25c3306a63"
     },
     "stats": {
       "total": 9,
@@ -813,6 +813,25 @@
     },
     "coverage": 95,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T15:17:16.000Z",
+      "message": "feat: obtener porcentaje de descuento adicional por categoria de producto para Material de escritorio",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 93.18,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }
