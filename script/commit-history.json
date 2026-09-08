@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b72ae5fec2b82cb98c2930724e99ff35cf1a9429",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T07:28:44.000Z",
       "message": "test: agregar prueba de porcentaje de impuesto para estado CA",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/b72ae5fec2b82cb98c2930724e99ff35cf1a9429"
     },
     "stats": {
       "total": 5,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T07:50:18.000Z",
+      "message": "feat: calcular impuesto en dolares segun porcentaje de estado",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

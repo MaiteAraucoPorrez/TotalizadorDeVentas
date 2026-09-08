@@ -188,9 +188,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b72ae5fec2b82cb98c2930724e99ff35cf1a9429",
     "commitName": "test: agregar prueba de porcentaje de impuesto para estado CA",
     "commitTimestamp": 1788852526209,
     "testId": 10
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788853212018,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788853426020,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto en dolares segun porcentaje de estado",
+    "commitTimestamp": 1788853820060,
+    "testId": 11
   }
 ]

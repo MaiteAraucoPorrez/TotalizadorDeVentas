@@ -35,4 +35,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(20, 3, "CA");
     expect(totalizador.obtenerPorcentajeImpuesto()).toEqual(8.25);
   });
+
+  it("deberia obtener el impuesto en dolares para CA", () => {
+    const totalizador = new Totalizador(20, 3, "CA");
+    expect(totalizador.calcularImpuesto()).toEqual(4.95); // 60 * 8.25%
+  });
 });
