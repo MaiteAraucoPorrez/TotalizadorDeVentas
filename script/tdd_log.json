@@ -496,9 +496,15 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2267d4938e69f512244216980194787e55b4ecd5",
     "commitName": "feat(ui): codigo de estado por defecto a CA",
     "commitTimestamp": 1788873883664,
     "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(ui): agregar lista desplegable para categoria de producto",
+    "commitTimestamp": 1788874360129,
+    "testId": 29
   }
 ]

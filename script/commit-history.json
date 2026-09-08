@@ -532,17 +532,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2267d4938e69f512244216980194787e55b4ecd5",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T13:24:41.000Z",
       "message": "feat(ui): codigo de estado por defecto a CA",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/2267d4938e69f512244216980194787e55b4ecd5"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 93.94,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T13:32:38.000Z",
+      "message": "feat(ui): agregar lista desplegable para categoria de producto",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
       "date": "2026-09-08"
     },
     "coverage": 93.94,
