@@ -7,10 +7,11 @@ const IMPUESTOS_POR_ESTADO = {
 };
 
 class Totalizador {
-  constructor(cantidad, precioUnitario, estado) {
+  constructor(cantidad, precioUnitario, estado, categoria) {
     this.cantidad = cantidad;
     this.precioUnitario = precioUnitario;
     this.estado = estado;
+    this.categoria = categoria;
     }
 
     validarCantidad() {
@@ -54,6 +55,10 @@ class Totalizador {
     calcularDescuento() {
         const porcentajeDescuento = this.obtenerPorcentajeDescuento();
         return this.calcularPrecioNeto() * (porcentajeDescuento / 100);
+    }
+
+    obtenerPorcentajeAdicionalCategoria() {
+        return 0;
     }
 
     calcularPrecioTotal() {

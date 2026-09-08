@@ -86,8 +86,14 @@ describe("Totalizar", () => {
     expect(totalizador.validarCantidad()).toEqual("Error: la cantidad debe ser mayor a cero");
   });
 
-   it("deberia mostrar error si el precio es negativo o cero", () => {
+  it("deberia mostrar error si el precio es negativo o cero", () => {
     const totalizador = new Totalizador(5, -3, "CA");
     expect(totalizador.validarPrecio()).toEqual("Error: el precio debe ser mayor a cero");
   });
+
+  it("deberia obtener el porcentaje de impuesto adicional para la categoria de Varios", () => {
+    const totalizador = new Totalizador(20, 3, "UT", "Varios");
+    expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(0);
+  });
+
 });

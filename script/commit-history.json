@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1214ec5e23971f2a088fe6f10a00b3e53188958f",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T13:34:41.000Z",
       "message": "feat(ui): cambiar la categoria de producto por defecto a Varios",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/1214ec5e23971f2a088fe6f10a00b3e53188958f"
     },
     "stats": {
       "total": 2,
@@ -585,6 +585,25 @@
     },
     "coverage": 93.94,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T13:44:31.000Z",
+      "message": "feat: obtener porcentaje de impuesto adicional de una categoria de producto especifica",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 94.29,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

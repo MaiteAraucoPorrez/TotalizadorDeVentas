@@ -508,9 +508,47 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1214ec5e23971f2a088fe6f10a00b3e53188958f",
     "commitName": "feat(ui): cambiar la categoria de producto por defecto a Varios",
     "commitTimestamp": 1788874483103,
     "testId": 30
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788874752980,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788874826224,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788874862818,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788874889552,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje de impuesto adicional de una categoria de producto especifica",
+    "commitTimestamp": 1788875072724,
+    "testId": 31
   }
 ]
