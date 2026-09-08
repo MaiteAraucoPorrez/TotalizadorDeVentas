@@ -478,9 +478,15 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2fa018d155f4b6c285607692a54b78c15d8491de",
     "commitName": "feat: mostrar mensaje de error de validacion en pantalla",
     "commitTimestamp": 1788857969402,
     "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar boton para cancelar compra",
+    "commitTimestamp": 1788858429993,
+    "testId": 26
   }
 ]
