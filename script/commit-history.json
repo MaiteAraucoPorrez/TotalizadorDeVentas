@@ -684,12 +684,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c67e3d20a4fe634a41a3c4ba20ca222cf123f119",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T13:59:19.000Z",
       "message": "refactor: implementar diccionario de impuestos por categoria de producto fuera del metodo",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/c67e3d20a4fe634a41a3c4ba20ca222cf123f119"
     },
     "stats": {
       "total": 21,
@@ -699,6 +699,25 @@
     },
     "coverage": 94.44,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T14:01:25.000Z",
+      "message": "test: obtener porcentaje de impuesto adicional para la categoria de producto Alimentos",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 94.44,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }

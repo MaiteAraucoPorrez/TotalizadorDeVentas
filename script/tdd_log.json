@@ -648,9 +648,23 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c67e3d20a4fe634a41a3c4ba20ca222cf123f119",
     "commitName": "refactor: implementar diccionario de impuestos por categoria de producto fuera del metodo",
     "commitTimestamp": 1788875960957,
     "testId": 36
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1788876042260,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: obtener porcentaje de impuesto adicional para la categoria de producto Alimentos",
+    "commitTimestamp": 1788876086641,
+    "testId": 37
   }
 ]
