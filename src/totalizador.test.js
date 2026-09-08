@@ -106,4 +106,9 @@ describe("Totalizar", () => {
     expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(4);
   });
 
+  it("deberia obtener el porcentaje de impuesto adicional para la categoria de Muebles", () => {
+    const totalizador = new Totalizador(20, 3, "UT", "Muebles");
+    expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(3);
+  });
+
 });

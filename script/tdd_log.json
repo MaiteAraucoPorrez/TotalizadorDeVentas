@@ -590,9 +590,31 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "da4df961bf26d42e26090bb1bed90af8d8eedd15",
     "commitName": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Electronicos",
     "commitTimestamp": 1788875381613,
     "testId": 33
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788875424042,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788875462034,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Muebles",
+    "commitTimestamp": 1788875485628,
+    "testId": 34
   }
 ]

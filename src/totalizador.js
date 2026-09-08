@@ -62,6 +62,8 @@ class Totalizador {
             return 7;
         } else if (this.categoria === "Electronicos") {
             return 4;
+        } else if (this.categoria === "Muebles") {
+            return 3;
         }
         return 0;
     }
