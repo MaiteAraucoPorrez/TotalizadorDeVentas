@@ -260,9 +260,39 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cbe4b3717bd5cf7e055aa8a38f8fea88ff2d5931",
     "commitName": "feat: obtener porcentaje de descuento para total de 1000",
     "commitTimestamp": 1788855066861,
     "testId": 14
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788855136734,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788855206674,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788855229928,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje de descuento por tramos",
+    "commitTimestamp": 1788855324585,
+    "testId": 15
   }
 ]
