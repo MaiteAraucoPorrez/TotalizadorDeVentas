@@ -484,9 +484,15 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d279243e0f9e4d5c4b8b0abb7c05a57fd1c1f2dd",
     "commitName": "feat: agregar boton para cancelar compra",
     "commitTimestamp": 1788858429993,
     "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar boton para confirmar compra",
+    "commitTimestamp": 1788858678029,
+    "testId": 27
   }
 ]

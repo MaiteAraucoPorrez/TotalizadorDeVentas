@@ -494,16 +494,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d279243e0f9e4d5c4b8b0abb7c05a57fd1c1f2dd",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T09:07:07.000Z",
       "message": "feat: agregar boton para cancelar compra",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/d279243e0f9e4d5c4b8b0abb7c05a57fd1c1f2dd"
     },
     "stats": {
       "total": 12,
       "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 93.94,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T09:11:15.000Z",
+      "message": "feat: agregar boton para confirmar compra",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
       "deletions": 0,
       "date": "2026-09-08"
     },
