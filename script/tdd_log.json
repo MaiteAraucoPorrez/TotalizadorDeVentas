@@ -662,9 +662,39 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8a35a653a760eb0fab9db96318ac45746bbafcbc",
     "commitName": "test: obtener porcentaje de impuesto adicional para la categoria de producto Alimentos",
     "commitTimestamp": 1788876086641,
     "testId": 37
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1788876269801,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1788876309060,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1788876348629,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto adicional por categoria de producto en dolares",
+    "commitTimestamp": 1788876420460,
+    "testId": 38
   }
 ]

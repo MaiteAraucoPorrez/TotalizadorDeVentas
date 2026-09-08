@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8a35a653a760eb0fab9db96318ac45746bbafcbc",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T14:01:25.000Z",
       "message": "test: obtener porcentaje de impuesto adicional para la categoria de producto Alimentos",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/8a35a653a760eb0fab9db96318ac45746bbafcbc"
     },
     "stats": {
       "total": 5,
@@ -718,6 +718,25 @@
     },
     "coverage": 94.44,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T14:06:58.000Z",
+      "message": "feat: calcular impuesto adicional por categoria de producto en dolares",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 94.74,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -121,4 +121,9 @@ describe("Totalizar", () => {
     expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(0);
   });
 
+  it("deberia obtener el impuesto adicional en dolares para la cateogoria Bebidas alcoholicas", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Bebidas alcoholicas");
+    expect(totalizador.calcularImpuestoCategoria()).toEqual(4.20); // 60 * 7.00%
+  });
+
 });

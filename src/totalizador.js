@@ -71,6 +71,11 @@ class Totalizador {
         return iMPUESTO_ADICIONAL_CATEGORIA_DE_PRODUCTO[this.categoria] || 0;
     }
 
+    calcularImpuestoCategoria() {
+        const porcentajeAdicionalCategoria = this.obtenerPorcentajeAdicionalCategoria();
+        return this.calcularPrecioNeto() * (porcentajeAdicionalCategoria / 100);
+    }
+
     calcularPrecioTotal() {
         const precioNeto = this.calcularPrecioNeto();
         const impuesto = this.calcularImpuesto();
