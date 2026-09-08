@@ -36,9 +36,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "422592403d499facee072737e858f4dcbdbf7ce7",
     "commitName": "refactor: extraer logica de calculo a archivo independiente",
     "commitTimestamp": 1788848075583,
     "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788848190495,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788848220372,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar logica de multiplicacion para calcular total",
+    "commitTimestamp": 1788848937633,
+    "testId": 3
   }
 ]

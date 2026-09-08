@@ -5,7 +5,7 @@ class Totalizador {
     }
 
     calcularPrecioNeto() {
-        return 1;
+        return this.cantidad * this.precioUnitario;
     }
 }
 export default Totalizador;
