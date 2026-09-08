@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d4710f01e537f7e91e5f92cb51a0db00479ed59a",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T13:44:31.000Z",
       "message": "feat: obtener porcentaje de impuesto adicional de una categoria de producto especifica",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/d4710f01e537f7e91e5f92cb51a0db00479ed59a"
     },
     "stats": {
       "total": 15,
@@ -604,6 +604,25 @@
     },
     "coverage": 94.29,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T13:47:17.000Z",
+      "message": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Bebidas alcoholicas",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 94.59,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -58,6 +58,9 @@ class Totalizador {
     }
 
     obtenerPorcentajeAdicionalCategoria() {
+        if (this.categoria === "Bebidas alcoholicas") {
+            return 7;
+        }
         return 0;
     }
 
