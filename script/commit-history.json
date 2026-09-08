@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5dee39bce307058bd7a112bce81c148a47f46338",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T08:15:23.000Z",
       "message": "feat: obtener porcentaje de descuento por tramos",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/5dee39bce307058bd7a112bce81c148a47f46338"
     },
     "stats": {
       "total": 11,
@@ -300,6 +300,25 @@
     },
     "coverage": 94.44,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T08:19:28.000Z",
+      "message": "feat: obtener porcentaje de descuento para total de 7000",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 95,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

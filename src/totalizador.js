@@ -34,7 +34,8 @@ class Totalizador {
 
     obtenerPorcentajeDescuento() {
         const precioNeto = this.calcularPrecioNeto();
-        
+
+        if (precioNeto >= 7000) return 7;
         if (precioNeto >= 3000) return 5;
         if (precioNeto >= 1000) return 3;
         return 0;
