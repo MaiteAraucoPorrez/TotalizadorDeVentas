@@ -45,4 +45,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(20, 3, "CA");
     expect(totalizador.calcularPrecioTotal()).toEqual(64.95); //60 + 4.95
   });
+
+  it("deberia obtener el porcentaje de descuento para un total de 1000", () => {
+    const totalizador = new Totalizador(100, 10, "CA"); //neto: 1000
+    expect(totalizador.obtenerPorcentajeDescuento()).toEqual(3);
+  });
 });
