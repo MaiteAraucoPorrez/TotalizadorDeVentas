@@ -1,3 +1,11 @@
+const IMPUESTOS_POR_ESTADO = {
+    "UT": 6.65,
+    "NV": 8.00,
+    "TX": 6.25,
+    "AL": 4.00,
+    "CA": 8.25
+};
+
 class Totalizador {
   constructor(cantidad, precioUnitario, estado) {
     this.cantidad = cantidad;
@@ -10,14 +18,7 @@ class Totalizador {
     }
 
     obtenerPorcentajeImpuesto() {
-        const impuestosPorEstado = {
-            "UT": 6.65,
-            "NV": 8.00,
-            "TX": 6.25,
-            "AL": 4.00,
-            "CA": 8.25
-        };
-        return impuestosPorEstado[this.estado] || 0;
+        return IMPUESTOS_POR_ESTADO[this.estado] || 0;
     }
 }
 export default Totalizador;

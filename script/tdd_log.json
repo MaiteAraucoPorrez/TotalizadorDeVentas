@@ -160,9 +160,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "734287a603e1efe480d2306ebc7950c1ebb07eb7",
     "commitName": "test: agregar prueba de porcentaje de impuesto para estado AL",
     "commitTimestamp": 1788852192613,
     "testId": 8
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788852241379,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: extraer diccionario de impuestos fuera del metodo para optimizar memoria",
+    "commitTimestamp": 1788852475175,
+    "testId": 9
   }
 ]
