@@ -502,9 +502,15 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0dce13ec87ab910da14c77d31cc58413fc8019d1",
     "commitName": "feat(ui): agregar lista desplegable para categoria de producto",
     "commitTimestamp": 1788874360129,
     "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(ui): cambiar la categoria de producto por defecto a Varios",
+    "commitTimestamp": 1788874483103,
+    "testId": 30
   }
 ]

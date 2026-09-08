@@ -551,17 +551,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0dce13ec87ab910da14c77d31cc58413fc8019d1",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T13:32:38.000Z",
       "message": "feat(ui): agregar lista desplegable para categoria de producto",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/0dce13ec87ab910da14c77d31cc58413fc8019d1"
     },
     "stats": {
       "total": 14,
       "additions": 14,
       "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 93.94,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T13:34:41.000Z",
+      "message": "feat(ui): cambiar la categoria de producto por defecto a Varios",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-09-08"
     },
     "coverage": 93.94,
