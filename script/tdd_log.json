@@ -720,9 +720,15 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "524c9c90953dfeb4b4b91b373032a7ea3cc95f1f",
     "commitName": "fix(html): corregir values de categoria para que coincidan con el diccionario js",
     "commitTimestamp": 1788878975435,
     "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto adicional por categoria de producto y actualizar precio total en pantalla",
+    "commitTimestamp": 1788879605083,
+    "testId": 41
   }
 ]

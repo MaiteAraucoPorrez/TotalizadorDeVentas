@@ -760,17 +760,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "524c9c90953dfeb4b4b91b373032a7ea3cc95f1f",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T14:49:34.000Z",
       "message": "fix(html): corregir values de categoria para que coincidan con el diccionario js",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/524c9c90953dfeb4b4b91b373032a7ea3cc95f1f"
     },
     "stats": {
       "total": 14,
       "additions": 7,
       "deletions": 7,
+      "date": "2026-09-08"
+    },
+    "coverage": 94.87,
+    "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T15:00:03.000Z",
+      "message": "feat: mostrar impuesto adicional por categoria de producto y actualizar precio total en pantalla",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 10,
+      "deletions": 4,
       "date": "2026-09-08"
     },
     "coverage": 94.87,

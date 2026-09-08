@@ -3,6 +3,7 @@ import Totalizador from "./totalizador";
 const cantidadInput = document.querySelector("#cantidad-item");
 const precioUnitarioInput = document.querySelector("#precio-item");
 const codigoEstadoInput = document.querySelector("#codigo-estado");
+const categoriaInput = document.querySelector("#categoria-producto");
 const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
 const cancelarButton = document.querySelector("#cancelar-button");
@@ -29,8 +30,9 @@ form.addEventListener("submit", (event) => {
   const cantidad = Number.parseInt(cantidadInput.value);
   const precio = Number.parseInt(precioUnitarioInput.value);
   const estado = codigoEstadoInput.value.trim().toUpperCase();
+  const categoria = categoriaInput.value.trim();
 
-  const totalizador = new Totalizador(cantidad, precio, estado);
+  const totalizador = new Totalizador(cantidad, precio, estado, categoria);
 
   const errorCantidad = totalizador.validarCantidad();
   const errorPrecio = totalizador.validarPrecio();
@@ -45,11 +47,15 @@ form.addEventListener("submit", (event) => {
   const impuesto = totalizador.calcularImpuesto();
   const porcentajeDescuento = totalizador.obtenerPorcentajeDescuento();
   const descuento = totalizador.calcularDescuento();
+  const porcentajeAdicionalCategoria = totalizador.obtenerPorcentajeAdicionalCategoria();
+  const impuestoCategoria = totalizador.calcularImpuestoCategoria();
+  
   const total = totalizador.calcularPrecioTotal();
   ultimoTotalCalculado = total;
 
   div.innerHTML = "<p>" + "Precio neto: " + "(" + cantidad + " x $" + precio + ")" + ": $" + neto + "</p>"
                   + "<p>" + "Impuesto para " + estado + " (%" + porcentajeImpuesto + ")" + ": $" + impuesto + "</p>"
                   + "<p>" + "Descuento para " + estado + " (%" + porcentajeDescuento + ")" + ": $" + descuento + "</p>"
-                  + "<p>" + "Precio total (impuesto y descuento): $" + total + "</p>";
+                  + "<p>" + "Impuesto adicional por categoría " + categoria + " (%" + porcentajeAdicionalCategoria + ")" + ": $" + impuestoCategoria + "</p>"
+                  + "<p>" + "Precio total (impuesto, descuento e impuesto por categoria): $" + total + "</p>";
 });
