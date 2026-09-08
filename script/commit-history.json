@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1876d91df6c3ce7f1ad4b382041570e593262d99",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T15:00:03.000Z",
       "message": "feat: mostrar impuesto adicional por categoria de producto y actualizar precio total en pantalla",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/1876d91df6c3ce7f1ad4b382041570e593262d99"
     },
     "stats": {
       "total": 14,
@@ -794,6 +794,25 @@
     },
     "coverage": 94.87,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T15:11:15.000Z",
+      "message": "feat: obtener porcentaje de descuento adicional por categoria de producto Alimentos",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 95,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

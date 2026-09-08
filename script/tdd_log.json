@@ -726,9 +726,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1876d91df6c3ce7f1ad4b382041570e593262d99",
     "commitName": "feat: mostrar impuesto adicional por categoria de producto y actualizar precio total en pantalla",
     "commitTimestamp": 1788879605083,
     "testId": 41
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1788879825795,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1788880183643,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje de descuento adicional por categoria de producto Alimentos",
+    "commitTimestamp": 1788880277219,
+    "testId": 42
   }
 ]

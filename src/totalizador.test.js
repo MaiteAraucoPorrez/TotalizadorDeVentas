@@ -131,4 +131,9 @@ describe("Totalizar", () => {
     expect(totalizador.calcularPrecioTotal()).toEqual(69.15); //64.95 + 4.20
   });
 
+  it("deberia obtener el porcentaje de descuento para la categoria de Alimentos", () => {
+    const totalizador = new Totalizador(100, 10, "CA", "Alimentos"); //neto: 1000
+    expect(totalizador.obtenerPorcentajeDescuentoAdicionalCategoria()).toEqual(2);
+  });
+
 });
