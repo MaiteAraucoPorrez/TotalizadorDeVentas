@@ -124,9 +124,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3fa68adf5e77f44e344bbe4b2d087e81d34dd346",
     "commitName": "feat: implementar calculo de impuesto para dos estados",
     "commitTimestamp": 1788851788102,
     "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788851878253,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788851936209,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de impuesto para estados faltantes",
+    "commitTimestamp": 1788852011112,
+    "testId": 7
   }
 ]

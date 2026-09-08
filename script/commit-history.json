@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3fa68adf5e77f44e344bbe4b2d087e81d34dd346",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T07:16:26.000Z",
       "message": "feat: implementar calculo de impuesto para dos estados",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/3fa68adf5e77f44e344bbe4b2d087e81d34dd346"
     },
     "stats": {
       "total": 14,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T07:20:09.000Z",
+      "message": "feat: implementar calculo de impuesto para estados faltantes",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
