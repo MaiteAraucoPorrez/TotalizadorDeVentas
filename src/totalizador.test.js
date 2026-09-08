@@ -156,4 +156,9 @@ describe("Totalizar", () => {
     expect(totalizador.calcularDescuentoCategoria()).toEqual(20); //1000 * 2%
   });
 
+  it("deberia calcular el precio total con descuento e impuestos", () => {
+    const totalizador = new Totalizador(100, 10, "CA", "Alimentos");
+    expect(totalizador.calcularPrecioTotal()).toEqual(1032.5); //1000 + 82.5 - 30 - 20
+  });
+
 });

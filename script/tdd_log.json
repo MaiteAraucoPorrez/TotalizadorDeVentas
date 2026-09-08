@@ -842,9 +842,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "951a6d91382f90ff7fdb848c572ce27ecd10e9d7",
     "commitName": "feat: calcular descuento adicional por categoria de productos en dolares",
     "commitTimestamp": 1788882443592,
     "testId": 47
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1788882783797,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1788882818443,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir descuento adicional por categoria de producto en calculo de precio total",
+    "commitTimestamp": 1788882900428,
+    "testId": 48
   }
 ]

@@ -100,8 +100,9 @@ class Totalizador {
         const impuesto = this.calcularImpuesto();
         const descuento = this.calcularDescuento();
         const impuestoCategoria = this.calcularImpuestoCategoria();
+        const descuentoCategoria = this.calcularDescuentoCategoria();
 
-        return precioNeto + impuesto + impuestoCategoria - descuento;
+        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria;
     }
 }
 export default Totalizador;

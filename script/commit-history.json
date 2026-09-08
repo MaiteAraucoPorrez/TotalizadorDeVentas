@@ -893,12 +893,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "951a6d91382f90ff7fdb848c572ce27ecd10e9d7",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T15:47:22.000Z",
       "message": "feat: calcular descuento adicional por categoria de productos en dolares",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/951a6d91382f90ff7fdb848c572ce27ecd10e9d7"
     },
     "stats": {
       "total": 12,
@@ -908,6 +908,25 @@
     },
     "coverage": 95.35,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T15:54:59.000Z",
+      "message": "feat: incluir descuento adicional por categoria de producto en calculo de precio total",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 95.45,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }
