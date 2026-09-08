@@ -406,9 +406,15 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a21e2570c9201a1f4e0319f56fd03fc746e058e4",
     "commitName": "feat: mostrar descuento y precio total actualizado en pantalla",
     "commitTimestamp": 1788856282054,
     "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(ui): reemplazar input de texto por select para el codigo de estado",
+    "commitTimestamp": 1788856730652,
+    "testId": 22
   }
 ]

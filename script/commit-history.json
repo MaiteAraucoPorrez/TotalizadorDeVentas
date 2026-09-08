@@ -399,16 +399,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a21e2570c9201a1f4e0319f56fd03fc746e058e4",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T08:31:19.000Z",
       "message": "feat: mostrar descuento y precio total actualizado en pantalla",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/a21e2570c9201a1f4e0319f56fd03fc746e058e4"
     },
     "stats": {
       "total": 5,
       "additions": 4,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T08:38:47.000Z",
+      "message": "feat(ui): reemplazar input de texto por select para el codigo de estado",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
       "deletions": 1,
       "date": "2026-09-08"
     },
