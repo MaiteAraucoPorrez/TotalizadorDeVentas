@@ -434,9 +434,47 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "606065f1e110dd5764ce04f6bb0382fb8c6df61f",
     "commitName": "feat: validar cantidad negativa o cero",
     "commitTimestamp": 1788857159338,
     "testId": 23
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788857238387,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788857354784,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788857424222,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788857634419,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar precio negativo o cero",
+    "commitTimestamp": 1788857668774,
+    "testId": 24
   }
 ]

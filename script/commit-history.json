@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "606065f1e110dd5764ce04f6bb0382fb8c6df61f",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T08:45:56.000Z",
       "message": "feat: validar cantidad negativa o cero",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/606065f1e110dd5764ce04f6bb0382fb8c6df61f"
     },
     "stats": {
       "total": 14,
@@ -452,6 +452,25 @@
     },
     "coverage": 96.67,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T08:54:26.000Z",
+      "message": "feat: validar precio negativo o cero",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 16,
+      "deletions": 4,
+      "date": "2026-09-08"
+    },
+    "coverage": 93.94,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

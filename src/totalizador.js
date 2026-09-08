@@ -14,11 +14,18 @@ class Totalizador {
     }
 
     validarCantidad() {
-    if (this.cantidad <= 0) {
-        return "Error: la cantidad debe ser mayor a cero";
+        if (this.cantidad <= 0) {
+            return "Error: la cantidad debe ser mayor a cero";
+        }
+        return null;
     }
-    return null;
-  }
+
+    validarPrecio() {
+        if (this.precioUnitario <= 0) {
+            return "Error: el precio debe ser mayor a cero";
+        }
+        return null;
+    }
 
     calcularPrecioNeto() {
         return this.cantidad * this.precioUnitario;
