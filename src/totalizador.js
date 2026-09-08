@@ -81,6 +81,8 @@ class Totalizador {
         return 2;
         } else if (this.categoria === "Material de escritorio") {
             return 1.5;
+        } else if (this.categoria === "Electronicos") {
+            return 1;
         }
         return 0;
     }

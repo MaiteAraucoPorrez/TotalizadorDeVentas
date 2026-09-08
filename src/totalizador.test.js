@@ -141,4 +141,9 @@ describe("Totalizar", () => {
     expect(totalizador.obtenerPorcentajeDescuentoAdicionalCategoria()).toEqual(1.5);
   });
 
+  it("deberia obtener el porcentaje de descuento para la categoria de Electronicos", () => {
+    const totalizador = new Totalizador(100, 10, "CA", "Electronicos");
+    expect(totalizador.obtenerPorcentajeDescuentoAdicionalCategoria()).toEqual(1);
+  });
+
 });
