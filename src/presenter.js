@@ -15,6 +15,11 @@ form.addEventListener("submit", (event) => {
 
   const totalizador = new Totalizador(cantidad, precio, estado);
   const neto = totalizador.calcularPrecioNeto();
+  const porcentajeImpuesto = totalizador.obtenerPorcentajeImpuesto();
+  const impuesto = totalizador.calcularImpuesto();
+  const total = totalizador.calcularPrecioTotal();
 
-  div.innerHTML = "<p>" + "Precio neto: " + "(" + cantidad + " x $" + precio + ")" + ": $" + neto + "</p>";
+  div.innerHTML = "<p>" + "Precio neto: " + "(" + cantidad + " x $" + precio + ")" + ": $" + neto + "</p>"
+                  + "<p>" + "Impuesto para " + estado + " (%" + porcentajeImpuesto + ")" + ": $" + impuesto + "</p>"
+                  + "<p>" + "Precio total (+ impuesto): $" + total + "</p>";
 });

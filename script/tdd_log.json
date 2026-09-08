@@ -232,9 +232,15 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4b945d95bb5a2c31432efa8c92dc64761ce442e5",
     "commitName": "feat: calcular precio total con impuesto",
     "commitTimestamp": 1788854050074,
     "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar impuesto y precio total en pantalla",
+    "commitTimestamp": 1788854746086,
+    "testId": 13
   }
 ]
