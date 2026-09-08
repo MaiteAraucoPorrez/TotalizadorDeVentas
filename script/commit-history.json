@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "42877cf88fe1d7eff3ca04c9759a09cdbd521634",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T06:10:43.000Z",
       "message": "feat: calcular precio neto para caso un item a 1 dolar",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/42877cf88fe1d7eff3ca04c9759a09cdbd521634"
     },
     "stats": {
       "total": 18,
       "additions": 18,
       "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T06:14:34.000Z",
+      "message": "refactor: extraer logica de calculo a archivo independiente",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 13,
+      "deletions": 12,
       "date": "2026-09-08"
     },
     "coverage": 100,

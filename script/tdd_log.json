@@ -22,9 +22,23 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "42877cf88fe1d7eff3ca04c9759a09cdbd521634",
     "commitName": "feat: calcular precio neto para caso un item a 1 dolar",
     "commitTimestamp": 1788847844746,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788847903042,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: extraer logica de calculo a archivo independiente",
+    "commitTimestamp": 1788848075583,
+    "testId": 2
   }
 ]
