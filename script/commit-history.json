@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5207951c3ec75dedb0db1ae79fe44b6bcc51068d",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T07:20:09.000Z",
       "message": "feat: implementar calculo de impuesto para estados faltantes",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/5207951c3ec75dedb0db1ae79fe44b6bcc51068d"
     },
     "stats": {
       "total": 8,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T07:23:11.000Z",
+      "message": "test: agregar prueba de porcentaje de impuesto para estado AL",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
