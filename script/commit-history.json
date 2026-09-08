@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "07f500cf6b8b0bbf99b7ff2bb99b052723d8d2a4",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T06:46:39.000Z",
       "message": "feat: conectar interfaz grafica con la logica del totalizador",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/07f500cf6b8b0bbf99b7ff2bb99b052723d8d2a4"
     },
     "stats": {
       "total": 19,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T07:02:37.000Z",
+      "message": "feat: obtener porcentaje de impuesto para un estado especifico",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

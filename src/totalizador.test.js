@@ -10,4 +10,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(20, 3);
     expect(totalizador.calcularPrecioNeto()).toEqual(60);
   });
+
+  it("deberia obtener el porcentaje de impuesto para UT", () => {
+    const totalizador = new Totalizador(20, 3, "UT");
+    expect(totalizador.obtenerPorcentajeImpuesto()).toEqual(6.65);
+  });
 });

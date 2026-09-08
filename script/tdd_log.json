@@ -64,9 +64,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "07f500cf6b8b0bbf99b7ff2bb99b052723d8d2a4",
     "commitName": "feat: conectar interfaz grafica con la logica del totalizador",
     "commitTimestamp": 1788850001336,
     "testId": 4
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788850547389,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788850838772,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje de impuesto para un estado especifico",
+    "commitTimestamp": 1788850958535,
+    "testId": 5
   }
 ]
