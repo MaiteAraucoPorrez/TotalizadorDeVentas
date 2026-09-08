@@ -42,5 +42,10 @@ class Totalizador {
         if (precioNeto >= 1000) return 3;
         return 0;
     }
+
+    calcularDescuento() {
+        const porcentajeDescuento = this.obtenerPorcentajeDescuento();
+        return this.calcularPrecioNeto() * (porcentajeDescuento / 100);
+    }
 }
 export default Totalizador;

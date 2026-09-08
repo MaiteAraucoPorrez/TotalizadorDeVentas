@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b2b1a5aad4050aadb4aea756e996224ed8099156",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T08:22:32.000Z",
       "message": "feat: obtener porcentaje de descuento para total de 30000",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/b2b1a5aad4050aadb4aea756e996224ed8099156"
     },
     "stats": {
       "total": 6,
@@ -357,6 +357,25 @@
     },
     "coverage": 95.83,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T08:25:35.000Z",
+      "message": "feat: calcular descuento en dolares",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 96.15,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

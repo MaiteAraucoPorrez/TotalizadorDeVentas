@@ -356,9 +356,31 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b2b1a5aad4050aadb4aea756e996224ed8099156",
     "commitName": "feat: obtener porcentaje de descuento para total de 30000",
     "commitTimestamp": 1788855753324,
     "testId": 18
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788855823412,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788855890270,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento en dolares",
+    "commitTimestamp": 1788855937320,
+    "testId": 19
   }
 ]
