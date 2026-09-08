@@ -174,9 +174,23 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "44a608d318251d2437101c2a4c6398893ae093cb",
     "commitName": "refactor: extraer diccionario de impuestos fuera del metodo para optimizar memoria",
     "commitTimestamp": 1788852475175,
     "testId": 9
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788852508016,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar prueba de porcentaje de impuesto para estado CA",
+    "commitTimestamp": 1788852526209,
+    "testId": 10
   }
 ]
