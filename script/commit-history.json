@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9cc0b2623edd860a29c327a4a1268681f2fac2d3",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T07:50:18.000Z",
       "message": "feat: calcular impuesto en dolares segun porcentaje de estado",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/9cc0b2623edd860a29c327a4a1268681f2fac2d3"
     },
     "stats": {
       "total": 10,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T07:54:08.000Z",
+      "message": "feat: calcular precio total con impuesto",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

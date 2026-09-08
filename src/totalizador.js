@@ -25,5 +25,11 @@ class Totalizador {
         const porcentajeImpuesto = this.obtenerPorcentajeImpuesto();
         return this.calcularPrecioNeto() * (porcentajeImpuesto / 100);
     }
+
+    calcularPrecioTotal() {
+        const precioNeto = this.calcularPrecioNeto();
+        const impuesto = this.calcularImpuesto();
+        return precioNeto + impuesto;
+    }
 }
 export default Totalizador;

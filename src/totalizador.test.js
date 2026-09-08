@@ -40,4 +40,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(20, 3, "CA");
     expect(totalizador.calcularImpuesto()).toEqual(4.95); // 60 * 8.25%
   });
+
+  it("deberia calcular el precio total con impuesto para CA", () => {
+    const totalizador = new Totalizador(20, 3, "CA");
+    expect(totalizador.calcularPrecioTotal()).toEqual(64.95); //60 + 4.95
+  });
 });

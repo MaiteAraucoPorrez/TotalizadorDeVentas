@@ -210,9 +210,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9cc0b2623edd860a29c327a4a1268681f2fac2d3",
     "commitName": "feat: calcular impuesto en dolares segun porcentaje de estado",
     "commitTimestamp": 1788853820060,
     "testId": 11
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788853905061,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788854001693,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con impuesto",
+    "commitTimestamp": 1788854050074,
+    "testId": 12
   }
 ]
