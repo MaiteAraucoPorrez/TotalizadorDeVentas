@@ -568,9 +568,31 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b58e0d42301ae5cad3a3c7cef1877bc7fdd6fd21",
     "commitName": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Bebidas alcoholicas",
     "commitTimestamp": 1788875239482,
     "testId": 32
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788875312908,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788875358968,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Electronicos",
+    "commitTimestamp": 1788875381613,
+    "testId": 33
   }
 ]

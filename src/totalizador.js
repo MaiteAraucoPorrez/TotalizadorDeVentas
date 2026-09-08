@@ -60,6 +60,8 @@ class Totalizador {
     obtenerPorcentajeAdicionalCategoria() {
         if (this.categoria === "Bebidas alcoholicas") {
             return 7;
+        } else if (this.categoria === "Electronicos") {
+            return 4;
         }
         return 0;
     }
