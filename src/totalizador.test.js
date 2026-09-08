@@ -75,4 +75,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(100, 10, "CA");
     expect(totalizador.calcularDescuento()).toEqual(30); //100 * 3%
   });
+
+  it("deberia calcular el precio total con descuento e impuestos", () => {
+    const totalizador = new Totalizador(100, 10, "CA");
+    expect(totalizador.calcularPrecioTotal()).toEqual(1052.5);
+  });
 });

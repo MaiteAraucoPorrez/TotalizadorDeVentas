@@ -26,12 +26,6 @@ class Totalizador {
         return this.calcularPrecioNeto() * (porcentajeImpuesto / 100);
     }
 
-    calcularPrecioTotal() {
-        const precioNeto = this.calcularPrecioNeto();
-        const impuesto = this.calcularImpuesto();
-        return precioNeto + impuesto;
-    }
-
     obtenerPorcentajeDescuento() {
         const precioNeto = this.calcularPrecioNeto();
 
@@ -46,6 +40,14 @@ class Totalizador {
     calcularDescuento() {
         const porcentajeDescuento = this.obtenerPorcentajeDescuento();
         return this.calcularPrecioNeto() * (porcentajeDescuento / 100);
+    }
+
+    calcularPrecioTotal() {
+        const precioNeto = this.calcularPrecioNeto();
+        const impuesto = this.calcularImpuesto();
+        const descuento = this.calcularDescuento();
+        
+        return precioNeto + impuesto - descuento;
     }
 }
 export default Totalizador;

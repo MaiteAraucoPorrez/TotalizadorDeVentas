@@ -378,9 +378,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bc164d10dbd38251b1c3fb50dafa708adccb9d1c",
     "commitName": "feat: calcular descuento en dolares",
     "commitTimestamp": 1788855937320,
     "testId": 19
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788856007908,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788856045282,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir descuento en calculo de precio total",
+    "commitTimestamp": 1788856087214,
+    "testId": 20
   }
 ]
