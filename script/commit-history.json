@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "084d78953afc1b68cdcf7896f4337704984f5573",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T05:54:35.000Z",
       "message": "feat(ui): implementar formulario base para el totalizador de ventas",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/084d78953afc1b68cdcf7896f4337704984f5573"
     },
     "stats": {
       "total": 31,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T06:10:43.000Z",
+      "message": "feat: calcular precio neto para caso un item a 1 dolar",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
