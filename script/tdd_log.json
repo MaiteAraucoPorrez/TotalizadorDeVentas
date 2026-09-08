@@ -400,9 +400,15 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f98f237922a37e35204ba5102dce113d116cba3",
     "commitName": "feat: incluir descuento en calculo de precio total",
     "commitTimestamp": 1788856087214,
     "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuento y precio total actualizado en pantalla",
+    "commitTimestamp": 1788856282054,
+    "testId": 21
   }
 ]
