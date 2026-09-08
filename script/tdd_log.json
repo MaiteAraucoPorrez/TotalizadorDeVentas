@@ -634,9 +634,23 @@
     "testId": 35
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e7e9f1600cac60583e5c04d81ab785e6836d03ad",
     "commitName": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Vestimenta",
     "commitTimestamp": 1788875578967,
     "testId": 35
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788875767098,
+    "success": true,
+    "testId": 36
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: implementar diccionario de impuestos por categoria de producto fuera del metodo",
+    "commitTimestamp": 1788875960957,
+    "testId": 36
   }
 ]

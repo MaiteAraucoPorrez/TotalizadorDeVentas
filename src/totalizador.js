@@ -6,6 +6,16 @@ const IMPUESTOS_POR_ESTADO = {
     "CA": 8.25
 };
 
+const iMPUESTO_ADICIONAL_CATEGORIA_DE_PRODUCTO = {
+    "Varios": 0,
+    "Alimentos": 0,
+    "Bebidas alcoholicas": 7,
+    "Material de escritorio": 0,
+    "Muebles": 3,
+    "Electronicos": 4,
+    "Vestimenta": 2
+}
+
 class Totalizador {
   constructor(cantidad, precioUnitario, estado, categoria) {
     this.cantidad = cantidad;
@@ -58,16 +68,7 @@ class Totalizador {
     }
 
     obtenerPorcentajeAdicionalCategoria() {
-        if (this.categoria === "Bebidas alcoholicas") {
-            return 7;
-        } else if (this.categoria === "Electronicos") {
-            return 4;
-        } else if (this.categoria === "Muebles") {
-            return 3;
-        } else if (this.categoria === "Vestimenta") {
-            return 2;
-        }
-        return 0;
+        return iMPUESTO_ADICIONAL_CATEGORIA_DE_PRODUCTO[this.categoria] || 0;
     }
 
     calcularPrecioTotal() {
