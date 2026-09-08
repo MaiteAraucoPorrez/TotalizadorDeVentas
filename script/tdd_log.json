@@ -820,9 +820,31 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c58b1ce1fa88de5524e3ea596d33d9c44e51ecac",
     "commitName": "test: obtener porcentaje de descuento adicional por categoria de producto para Vestimenta",
     "commitTimestamp": 1788881988731,
     "testId": 46
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1788882221843,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1788882274256,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento adicional por categoria de productos en dolares",
+    "commitTimestamp": 1788882443592,
+    "testId": 47
   }
 ]

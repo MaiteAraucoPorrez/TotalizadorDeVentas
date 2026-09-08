@@ -73,7 +73,7 @@ describe("Totalizar", () => {
 
   it("deberia obtener el descuento total en dolares", () => {
     const totalizador = new Totalizador(100, 10, "CA");
-    expect(totalizador.calcularDescuento()).toEqual(30); //100 * 3%
+    expect(totalizador.calcularDescuento()).toEqual(30); //1000 * 3%
   });
 
   it("deberia calcular el precio total con descuento e impuestos", () => {
@@ -149,6 +149,11 @@ describe("Totalizar", () => {
   it("deberia obtener el porcentaje de descuento para la categoria de Vestimenta", () => {
     const totalizador = new Totalizador(100, 10, "CA", "Vestimenta");
     expect(totalizador.obtenerPorcentajeDescuentoAdicionalCategoria()).toEqual(0);
+  });
+
+  it("deberia obtener el descuento adicional por cateogoria de producto total en dolares", () => {
+    const totalizador = new Totalizador(100, 10, "CA", "Alimentos");
+    expect(totalizador.calcularDescuentoCategoria()).toEqual(20); //1000 * 2%
   });
 
 });

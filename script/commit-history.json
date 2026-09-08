@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c58b1ce1fa88de5524e3ea596d33d9c44e51ecac",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T15:39:47.000Z",
       "message": "test: obtener porcentaje de descuento adicional por categoria de producto para Vestimenta",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/c58b1ce1fa88de5524e3ea596d33d9c44e51ecac"
     },
     "stats": {
       "total": 5,
@@ -889,6 +889,25 @@
     },
     "coverage": 95.12,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T15:47:22.000Z",
+      "message": "feat: calcular descuento adicional por categoria de productos en dolares",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 95.35,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }

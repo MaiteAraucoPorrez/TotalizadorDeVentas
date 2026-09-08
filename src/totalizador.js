@@ -90,6 +90,11 @@ class Totalizador {
         return DESCUENTO_ADICIONAL_CATEGORIA_DE_PRODUCTO[this.categoria] || 0;
     }
 
+    calcularDescuentoCategoria() {
+        const porcentajeDescuentoAdicionalCategoria = this.obtenerPorcentajeDescuentoAdicionalCategoria();
+        return this.calcularPrecioNeto() * (porcentajeDescuentoAdicionalCategoria / 100);
+    }
+
     calcularPrecioTotal() {
         const precioNeto = this.calcularPrecioNeto();
         const impuesto = this.calcularImpuesto();
