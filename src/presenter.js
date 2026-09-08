@@ -14,6 +14,15 @@ form.addEventListener("submit", (event) => {
   const estado = codigoEstadoInput.value.trim().toUpperCase();
 
   const totalizador = new Totalizador(cantidad, precio, estado);
+
+  const errorCantidad = totalizador.validarCantidad();
+  const errorPrecio = totalizador.validarPrecio();
+
+  if (errorCantidad || errorPrecio) {
+    div.innerHTML = "<p>" + (errorCantidad || errorPrecio) + "</p>";
+    return;
+  }
+
   const neto = totalizador.calcularPrecioNeto();
   const porcentajeImpuesto = totalizador.obtenerPorcentajeImpuesto();
   const impuesto = totalizador.calcularImpuesto();

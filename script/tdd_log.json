@@ -472,9 +472,15 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4797078c44f8725fb4ff4682c309c9145e26f015",
     "commitName": "feat: validar precio negativo o cero",
     "commitTimestamp": 1788857668774,
     "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar mensaje de error de validacion en pantalla",
+    "commitTimestamp": 1788857969402,
+    "testId": 25
   }
 ]
