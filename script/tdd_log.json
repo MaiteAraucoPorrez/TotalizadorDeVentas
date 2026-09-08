@@ -692,9 +692,31 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4057fa196a46a80758c41ac92626ab1de2b7dfc1",
     "commitName": "feat: calcular impuesto adicional por categoria de producto en dolares",
     "commitTimestamp": 1788876420460,
     "testId": 38
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1788876791137,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1788876859068,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con impuesto adicional por categoria de producto",
+    "commitTimestamp": 1788877053519,
+    "testId": 39
   }
 ]

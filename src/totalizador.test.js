@@ -126,4 +126,9 @@ describe("Totalizar", () => {
     expect(totalizador.calcularImpuestoCategoria()).toEqual(4.20); // 60 * 7.00%
   });
 
+  it("deberia calcular el precio total con impuesto adicional por cateogoria para CA", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Bebidas alcoholicas");
+    expect(totalizador.calcularPrecioTotal()).toEqual(69.15); //64.95 + 4.20
+  });
+
 });
