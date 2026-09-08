@@ -806,9 +806,23 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fbefef000a7ae126ec94d011b7b7bf60ca442dab",
     "commitName": "refactor: implementar diccionario de descuentos por categoria de producto fuera del metodo",
     "commitTimestamp": 1788881691859,
     "testId": 45
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1788881951322,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: obtener porcentaje de descuento adicional por categoria de producto para Vestimenta",
+    "commitTimestamp": 1788881988731,
+    "testId": 46
   }
 ]

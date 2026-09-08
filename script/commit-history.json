@@ -855,12 +855,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fbefef000a7ae126ec94d011b7b7bf60ca442dab",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T15:34:50.000Z",
       "message": "refactor: implementar diccionario de descuentos por categoria de producto fuera del metodo",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/fbefef000a7ae126ec94d011b7b7bf60ca442dab"
     },
     "stats": {
       "total": 19,
@@ -870,6 +870,25 @@
     },
     "coverage": 95.12,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T15:39:47.000Z",
+      "message": "test: obtener porcentaje de descuento adicional por categoria de producto para Vestimenta",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 95.12,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }
