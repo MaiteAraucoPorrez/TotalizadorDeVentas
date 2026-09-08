@@ -58,9 +58,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "62789cdc5b6c468962b44e1c4b6d5db115c0d62b",
     "commitName": "feat: agregar logica de multiplicacion para calcular total",
     "commitTimestamp": 1788848937633,
     "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: conectar interfaz grafica con la logica del totalizador",
+    "commitTimestamp": 1788850001336,
+    "testId": 4
   }
 ]

@@ -57,17 +57,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "62789cdc5b6c468962b44e1c4b6d5db115c0d62b",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T06:28:56.000Z",
       "message": "feat: agregar logica de multiplicacion para calcular total",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/62789cdc5b6c468962b44e1c4b6d5db115c0d62b"
     },
     "stats": {
       "total": 7,
       "additions": 6,
       "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T06:46:39.000Z",
+      "message": "feat: conectar interfaz grafica con la logica del totalizador",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 12,
+      "deletions": 7,
       "date": "2026-09-08"
     },
     "coverage": 100,

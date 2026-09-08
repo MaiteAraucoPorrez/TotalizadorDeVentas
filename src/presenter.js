@@ -1,15 +1,20 @@
-import sumar from "./sumador";
+import Totalizador from "./totalizador";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const cantidadInput = document.querySelector("#cantidad-item");
+const precioUnitarioInput = document.querySelector("#precio-item");
+const codigoEstadoInput = document.querySelector("#codigo-estado");
+const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const cantidad = Number.parseInt(cantidadInput.value);
+  const precio = Number.parseInt(precioUnitarioInput.value);
+  const estado = codigoEstadoInput.value.trim().toUpperCase();
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  const totalizador = new Totalizador(cantidad, precio, estado);
+  const neto = totalizador.calcularPrecioNeto();
+
+  div.innerHTML = "<p>" + "Precio neto: " + "(" + cantidad + " x $" + precio + ")" + ": $" + neto + "</p>";
 });
