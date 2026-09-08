@@ -792,9 +792,23 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7adf65bff6e43281a824c1817c6060a27cef6ed0",
     "commitName": "feat: obtener porcentaje de descuento adicional por categoria de producto para Electronicos",
     "commitTimestamp": 1788880745550,
     "testId": 44
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1788881592348,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: implementar diccionario de descuentos por categoria de producto fuera del metodo",
+    "commitTimestamp": 1788881691859,
+    "testId": 45
   }
 ]

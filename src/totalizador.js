@@ -16,6 +16,16 @@ const iMPUESTO_ADICIONAL_CATEGORIA_DE_PRODUCTO = {
     "Vestimenta": 2
 }
 
+const DESCUENTO_ADICIONAL_CATEGORIA_DE_PRODUCTO = {
+    "Varios": 0,
+    "Alimentos": 2,
+    "Bebidas alcoholicas": 0,
+    "Material de escritorio": 1.5,
+    "Muebles": 0,
+    "Electronicos": 1,
+    "Vestimenta": 0
+}
+
 class Totalizador {
   constructor(cantidad, precioUnitario, estado, categoria) {
     this.cantidad = cantidad;
@@ -77,14 +87,7 @@ class Totalizador {
     }
 
     obtenerPorcentajeDescuentoAdicionalCategoria() {
-        if (this.categoria === "Alimentos") {
-        return 2;
-        } else if (this.categoria === "Material de escritorio") {
-            return 1.5;
-        } else if (this.categoria === "Electronicos") {
-            return 1;
-        }
-        return 0;
+        return DESCUENTO_ADICIONAL_CATEGORIA_DE_PRODUCTO[this.categoria] || 0;
     }
 
     calcularPrecioTotal() {

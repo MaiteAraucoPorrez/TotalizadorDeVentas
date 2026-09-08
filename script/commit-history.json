@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7adf65bff6e43281a824c1817c6060a27cef6ed0",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T15:19:04.000Z",
       "message": "feat: obtener porcentaje de descuento adicional por categoria de producto para Electronicos",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/7adf65bff6e43281a824c1817c6060a27cef6ed0"
     },
     "stats": {
       "total": 7,
@@ -850,6 +850,25 @@
       "date": "2026-09-08"
     },
     "coverage": 93.48,
+    "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T15:34:50.000Z",
+      "message": "refactor: implementar diccionario de descuentos por categoria de producto fuera del metodo",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 11,
+      "deletions": 8,
+      "date": "2026-09-08"
+    },
+    "coverage": 95.12,
     "test_count": 30,
     "failed_tests": 0,
     "conclusion": "success"
