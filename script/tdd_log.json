@@ -490,9 +490,15 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "45bcde69ccaaa6a84312a563672158fbce10fec0",
     "commitName": "feat: agregar boton para confirmar compra",
     "commitTimestamp": 1788858678029,
     "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat(ui): codigo de estado por defecto a CA",
+    "commitTimestamp": 1788873883664,
+    "testId": 28
   }
 ]

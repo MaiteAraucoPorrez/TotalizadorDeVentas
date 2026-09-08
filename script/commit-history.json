@@ -513,17 +513,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "45bcde69ccaaa6a84312a563672158fbce10fec0",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T09:11:15.000Z",
       "message": "feat: agregar boton para confirmar compra",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/45bcde69ccaaa6a84312a563672158fbce10fec0"
     },
     "stats": {
       "total": 10,
       "additions": 10,
       "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 93.94,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T13:24:41.000Z",
+      "message": "feat(ui): codigo de estado por defecto a CA",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-09-08"
     },
     "coverage": 93.94,
