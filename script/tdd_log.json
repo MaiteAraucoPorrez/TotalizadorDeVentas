@@ -312,9 +312,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0be3b7037c96687a83f294a6c7af4cfee91e364c",
     "commitName": "feat: obtener porcentaje de descuento para total de 7000",
     "commitTimestamp": 1788855569799,
     "testId": 16
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788855637896,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788855664856,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje de descuento para total de 10000",
+    "commitTimestamp": 1788855680593,
+    "testId": 17
   }
 ]
