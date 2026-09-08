@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ee462b5f73507ced8976b339c76b249e06825821",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T07:02:37.000Z",
       "message": "feat: obtener porcentaje de impuesto para un estado especifico",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/ee462b5f73507ced8976b339c76b249e06825821"
     },
     "stats": {
       "total": 9,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T07:16:26.000Z",
+      "message": "feat: implementar calculo de impuesto para dos estados",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

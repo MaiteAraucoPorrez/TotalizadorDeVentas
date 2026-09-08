@@ -86,9 +86,47 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ee462b5f73507ced8976b339c76b249e06825821",
     "commitName": "feat: obtener porcentaje de impuesto para un estado especifico",
     "commitTimestamp": 1788850958535,
     "testId": 5
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788851007719,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 2,
+    "numTotalTests": 5,
+    "timestamp": 1788851169822,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 2,
+    "numTotalTests": 5,
+    "timestamp": 1788851235101,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788851358608,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementar calculo de impuesto para dos estados",
+    "commitTimestamp": 1788851788102,
+    "testId": 6
   }
 ]

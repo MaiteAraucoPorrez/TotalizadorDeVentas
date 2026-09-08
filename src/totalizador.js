@@ -1,7 +1,8 @@
 class Totalizador {
-  constructor(cantidad, precioUnitario) {
+  constructor(cantidad, precioUnitario, estado) {
     this.cantidad = cantidad;
     this.precioUnitario = precioUnitario;
+    this.estado = estado;
     }
 
     calcularPrecioNeto() {
@@ -9,7 +10,11 @@ class Totalizador {
     }
 
     obtenerPorcentajeImpuesto() {
-        return 6.65;
+        const impuestosPorEstado = {
+            "UT": 6.65,
+            "NV": 8.00,
+        };
+        return impuestosPorEstado[this.estado] || 0;
     }
 }
 export default Totalizador;
