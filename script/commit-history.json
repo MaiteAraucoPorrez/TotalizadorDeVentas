@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "17823b9a293d948822330adce87e600ed0c19266",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T08:38:47.000Z",
       "message": "feat(ui): reemplazar input de texto por select para el codigo de estado",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/17823b9a293d948822330adce87e600ed0c19266"
     },
     "stats": {
       "total": 10,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T08:45:56.000Z",
+      "message": "feat: validar cantidad negativa o cero",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 96.67,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

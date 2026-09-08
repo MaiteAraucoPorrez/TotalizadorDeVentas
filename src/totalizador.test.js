@@ -80,4 +80,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(100, 10, "CA");
     expect(totalizador.calcularPrecioTotal()).toEqual(1052.5);
   });
+
+  it("deberia mostrar error si la cantidad es negativa o cero", () => {
+    const totalizador = new Totalizador(-5, 3, "CA");
+    expect(totalizador.validarCantidad()).toEqual("Error: la cantidad debe ser mayor a cero");
+  });
 });

@@ -13,6 +13,13 @@ class Totalizador {
     this.estado = estado;
     }
 
+    validarCantidad() {
+    if (this.cantidad <= 0) {
+        return "Error: la cantidad debe ser mayor a cero";
+    }
+    return null;
+  }
+
     calcularPrecioNeto() {
         return this.cantidad * this.precioUnitario;
     }
@@ -46,7 +53,7 @@ class Totalizador {
         const precioNeto = this.calcularPrecioNeto();
         const impuesto = this.calcularImpuesto();
         const descuento = this.calcularDescuento();
-        
+
         return precioNeto + impuesto - descuento;
     }
 }

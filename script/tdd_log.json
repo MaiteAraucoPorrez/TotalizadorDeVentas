@@ -412,9 +412,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "17823b9a293d948822330adce87e600ed0c19266",
     "commitName": "feat(ui): reemplazar input de texto por select para el codigo de estado",
     "commitTimestamp": 1788856730652,
     "testId": 22
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1788857061729,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788857112182,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar cantidad negativa o cero",
+    "commitTimestamp": 1788857159338,
+    "testId": 23
   }
 ]
