@@ -714,9 +714,15 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "04d7989d23b85d78da0ffac968cd534ed8820eda",
     "commitName": "feat: calcular precio total con impuesto adicional por categoria de producto",
     "commitTimestamp": 1788877053519,
     "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(html): corregir values de categoria para que coincidan con el diccionario js",
+    "commitTimestamp": 1788878975435,
+    "testId": 40
   }
 ]
