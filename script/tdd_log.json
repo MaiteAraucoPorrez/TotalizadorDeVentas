@@ -612,9 +612,31 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "da62667775ff7a9686983153a5731dbe867cfd8e",
     "commitName": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Muebles",
     "commitTimestamp": 1788875485628,
     "testId": 34
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788875538663,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788875562450,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Vestimenta",
+    "commitTimestamp": 1788875578967,
+    "testId": 35
   }
 ]

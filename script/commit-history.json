@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "da62667775ff7a9686983153a5731dbe867cfd8e",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T13:51:24.000Z",
       "message": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Muebles",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/da62667775ff7a9686983153a5731dbe867cfd8e"
     },
     "stats": {
       "total": 7,
@@ -661,6 +661,25 @@
     },
     "coverage": 95.12,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T13:52:57.000Z",
+      "message": "feat: obtener porcentaje de impuesto adicional para la categoria de producto Vestimenta",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 95.35,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

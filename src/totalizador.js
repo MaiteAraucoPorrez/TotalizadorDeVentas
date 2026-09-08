@@ -64,6 +64,8 @@ class Totalizador {
             return 4;
         } else if (this.categoria === "Muebles") {
             return 3;
+        } else if (this.categoria === "Vestimenta") {
+            return 2;
         }
         return 0;
     }
