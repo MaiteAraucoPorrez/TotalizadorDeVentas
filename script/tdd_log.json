@@ -898,9 +898,39 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "27b6cc6258dc625d53f5260829b25f8edac8e43d",
     "commitName": "feat: agregar input de peso volumetrico",
     "commitTimestamp": 1788995364701,
     "testId": 51
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1788995514450,
+    "success": false,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1788995565139,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1788995641904,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar peso volumetrico al constructor y costo de envio para tramo 0-10",
+    "commitTimestamp": 1788995708063,
+    "testId": 52
   }
 ]

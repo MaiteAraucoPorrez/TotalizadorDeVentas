@@ -27,11 +27,12 @@ const DESCUENTO_ADICIONAL_CATEGORIA_DE_PRODUCTO = {
 }
 
 class Totalizador {
-  constructor(cantidad, precioUnitario, estado, categoria) {
+  constructor(cantidad, precioUnitario, estado, categoria, peso) {
     this.cantidad = cantidad;
     this.precioUnitario = precioUnitario;
     this.estado = estado;
     this.categoria = categoria;
+    this.peso = peso;
     }
 
     validarCantidad() {
@@ -93,6 +94,10 @@ class Totalizador {
     calcularDescuentoCategoria() {
         const porcentajeDescuentoAdicionalCategoria = this.obtenerPorcentajeDescuentoAdicionalCategoria();
         return this.calcularPrecioNeto() * (porcentajeDescuentoAdicionalCategoria / 100);
+    }
+
+    obtenerCostoEnvioUnidad() {
+        return 0;
     }
 
     calcularPrecioTotal() {

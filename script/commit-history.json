@@ -969,12 +969,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "27b6cc6258dc625d53f5260829b25f8edac8e43d",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-09T23:09:23.000Z",
       "message": "feat: agregar input de peso volumetrico",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/27b6cc6258dc625d53f5260829b25f8edac8e43d"
     },
     "stats": {
       "total": 4,
@@ -984,6 +984,25 @@
     },
     "coverage": 95.45,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-09T23:15:06.000Z",
+      "message": "feat: agregar peso volumetrico al constructor y costo de envio para tramo 0-10",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 95.65,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }
