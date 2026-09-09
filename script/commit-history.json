@@ -912,18 +912,56 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1bcba54afbdaf30e4e3ab366a1a271d7c1e14b7e",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-08T15:54:59.000Z",
       "message": "feat: incluir descuento adicional por categoria de producto en calculo de precio total",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/1bcba54afbdaf30e4e3ab366a1a271d7c1e14b7e"
     },
     "stats": {
       "total": 8,
       "additions": 7,
       "deletions": 1,
       "date": "2026-09-08"
+    },
+    "coverage": 95.45,
+    "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "1bcba54afbdaf30e4e3ab366a1a271d7c1e14b7e",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-08T19:11:40.000Z",
+      "message": "fix: corregir nombre de metodo y formato de salida del total",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/1bcba54afbdaf30e4e3ab366a1a271d7c1e14b7e"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 12,
+      "deletions": 6,
+      "date": "2026-09-08"
+    },
+    "coverage": 95.45,
+    "test_count": 33,
+    "failed_tests": 6,
+    "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-09T22:52:51.000Z",
+      "message": "fix: corregir nombre de metodo y formato de salida del total",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 18,
+      "deletions": 12,
+      "date": "2026-09-09"
     },
     "coverage": 95.45,
     "test_count": 33,

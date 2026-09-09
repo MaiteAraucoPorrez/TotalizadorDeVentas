@@ -864,9 +864,37 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1bcba54afbdaf30e4e3ab366a1a271d7c1e14b7e",
     "commitName": "feat: incluir descuento adicional por categoria de producto en calculo de precio total",
     "commitTimestamp": 1788882900428,
     "testId": 48
+  },
+  {
+    "commitId": "1bcba54afbdaf30e4e3ab366a1a271d7c1e14b7e",
+    "commitName": "fix: corregir nombre de metodo y formato de salida del total",
+    "commitTimestamp": 1788894702858,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 6,
+    "numTotalTests": 33,
+    "timestamp": 1788993869700,
+    "success": false,
+    "testId": 50
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1788993990130,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: corregir nombre de metodo y formato de salida del total",
+    "commitTimestamp": 1788994373721,
+    "testId": 50
   }
 ]

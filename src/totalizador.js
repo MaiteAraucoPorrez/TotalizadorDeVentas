@@ -77,12 +77,12 @@ class Totalizador {
         return this.calcularPrecioNeto() * (porcentajeDescuento / 100);
     }
 
-    obtenerPorcentajeAdicionalCategoria() {
+    obtenerPorcentajeImpuestoAdicionalCategoria() {
         return iMPUESTO_ADICIONAL_CATEGORIA_DE_PRODUCTO[this.categoria] || 0;
     }
 
     calcularImpuestoCategoria() {
-        const porcentajeAdicionalCategoria = this.obtenerPorcentajeAdicionalCategoria();
+        const porcentajeAdicionalCategoria = this.obtenerPorcentajeImpuestoAdicionalCategoria();
         return this.calcularPrecioNeto() * (porcentajeAdicionalCategoria / 100);
     }
 

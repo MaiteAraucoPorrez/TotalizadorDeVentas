@@ -45,17 +45,23 @@ form.addEventListener("submit", (event) => {
   const neto = totalizador.calcularPrecioNeto();
   const porcentajeImpuesto = totalizador.obtenerPorcentajeImpuesto();
   const impuesto = totalizador.calcularImpuesto();
+
   const porcentajeDescuento = totalizador.obtenerPorcentajeDescuento();
   const descuento = totalizador.calcularDescuento();
-  const porcentajeAdicionalCategoria = totalizador.obtenerPorcentajeAdicionalCategoria();
+
+  const porcentajeImpuestoAdicionalCategoria = totalizador.obtenerPorcentajeImpuestoAdicionalCategoria();
   const impuestoCategoria = totalizador.calcularImpuestoCategoria();
+
+  const porcentajeDescuentoAdicionalCategoria = totalizador.obtenerPorcentajeDescuentoAdicionalCategoria();
+  const descuentoCategoria = totalizador.calcularDescuentoCategoria();
   
   const total = totalizador.calcularPrecioTotal();
   ultimoTotalCalculado = total;
 
   div.innerHTML = "<p>" + "Precio neto: " + "(" + cantidad + " x $" + precio + ")" + ": $" + neto + "</p>"
                   + "<p>" + "Impuesto para " + estado + " (%" + porcentajeImpuesto + ")" + ": $" + impuesto + "</p>"
-                  + "<p>" + "Descuento para " + estado + " (%" + porcentajeDescuento + ")" + ": $" + descuento + "</p>"
-                  + "<p>" + "Impuesto adicional por categoría " + categoria + " (%" + porcentajeAdicionalCategoria + ")" + ": $" + impuestoCategoria + "</p>"
-                  + "<p>" + "Precio total (impuesto, descuento e impuesto por categoria): $" + total + "</p>";
+                  + "<p>" + "Descuento " + " (%" + porcentajeDescuento + ")" + ": $" + descuento + "</p>"
+                  + "<p>" + "Impuesto adicional por categoría " + categoria + " (%" + porcentajeImpuestoAdicionalCategoria + ")" + ": $" + impuestoCategoria + "</p>"
+                  + "<p>" + "Descuento adicional por categoría " + categoria + " (%" + porcentajeDescuentoAdicionalCategoria + ")" + ": $" + descuentoCategoria + "</p>"
+                  + "<p>" + "Precio total (impuesto, descuento e impuesto y descuento por categoria): $" + total + "</p>";
 });

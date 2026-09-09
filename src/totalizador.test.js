@@ -93,32 +93,32 @@ describe("Totalizar", () => {
 
   it("deberia obtener el porcentaje de impuesto adicional para la categoria de Varios", () => {
     const totalizador = new Totalizador(20, 3, "UT", "Varios");
-    expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(0);
+    expect(totalizador.obtenerPorcentajeImpuestoAdicionalCategoria()).toEqual(0);
   });
 
   it("deberia obtener el porcentaje de impuesto adicional para la categoria de Bebidas alcoholicas", () => {
     const totalizador = new Totalizador(20, 3, "UT", "Bebidas alcoholicas");
-    expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(7);
+    expect(totalizador.obtenerPorcentajeImpuestoAdicionalCategoria()).toEqual(7);
   });
 
   it("deberia obtener el porcentaje de impuesto adicional para la categoria de Electronicos", () => {
     const totalizador = new Totalizador(20, 3, "UT", "Electronicos");
-    expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(4);
+    expect(totalizador.obtenerPorcentajeImpuestoAdicionalCategoria()).toEqual(4);
   });
 
   it("deberia obtener el porcentaje de impuesto adicional para la categoria de Muebles", () => {
     const totalizador = new Totalizador(20, 3, "UT", "Muebles");
-    expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(3);
+    expect(totalizador.obtenerPorcentajeImpuestoAdicionalCategoria()).toEqual(3);
   });
 
   it("deberia obtener el porcentaje de impuesto adicional para la categoria de Vestimenta", () => {
     const totalizador = new Totalizador(20, 3, "UT", "Vestimenta");
-    expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(2);
+    expect(totalizador.obtenerPorcentajeImpuestoAdicionalCategoria()).toEqual(2);
   });
 
   it("deberia obtener el porcentaje de impuesto adicional para la categoria de Alimentos", () => {
     const totalizador = new Totalizador(20, 3, "UT", "Alimentos");
-    expect(totalizador.obtenerPorcentajeAdicionalCategoria()).toEqual(0);
+    expect(totalizador.obtenerPorcentajeImpuestoAdicionalCategoria()).toEqual(0);
   });
 
   it("deberia obtener el impuesto adicional en dolares para la cateogoria Bebidas alcoholicas", () => {
