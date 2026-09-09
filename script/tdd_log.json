@@ -892,9 +892,15 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "321dc484d915b9e8dbd9adfc5581ffc846b762d3",
     "commitName": "fix: corregir nombre de metodo y formato de salida del total",
     "commitTimestamp": 1788994373721,
     "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar input de peso volumetrico",
+    "commitTimestamp": 1788995364701,
+    "testId": 51
   }
 ]
