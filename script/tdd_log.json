@@ -950,9 +950,23 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "98542355924f7b75b4ef5366050574d819be4efa",
     "commitName": "feat: generalizar costo de envio por unidad segun tramos de peso",
     "commitTimestamp": 1788997295946,
     "testId": 53
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1788997838430,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar prueba costo de envio para tramo 21-40",
+    "commitTimestamp": 1788998388995,
+    "testId": 54
   }
 ]
