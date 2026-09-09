@@ -988,12 +988,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5f1d756b006537f3c68d6b8148d69e660a7480e5",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-09T23:15:06.000Z",
       "message": "feat: agregar peso volumetrico al constructor y costo de envio para tramo 0-10",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/5f1d756b006537f3c68d6b8148d69e660a7480e5"
     },
     "stats": {
       "total": 13,
@@ -1003,6 +1003,25 @@
     },
     "coverage": 95.65,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-09T23:41:34.000Z",
+      "message": "feat: generalizar costo de envio por unidad segun tramos de peso",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 81.36,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }

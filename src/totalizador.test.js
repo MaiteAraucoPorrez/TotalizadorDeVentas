@@ -166,5 +166,10 @@ describe("Totalizar", () => {
     expect(totalizador.obtenerCostoEnvioUnidad()).toEqual(0);
   });
 
+  it("deberia obtener el costo de envio por unidad para peso 15 (tramo 11-20)", () => {
+    const totalizador = new Totalizador(100, 10, "CA", "Alimentos", 15);
+    expect(totalizador.obtenerCostoEnvioUnidad()).toEqual(3.5);
+  });
+
 
 });
