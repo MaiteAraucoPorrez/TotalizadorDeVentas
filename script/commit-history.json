@@ -1444,17 +1444,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d981ebc9199a3270a3f3852f19a630d564cdc060",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T06:32:16.000Z",
       "message": "feat: mostrar descuento fijo y precio total actualizado en pantalla",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/d981ebc9199a3270a3f3852f19a630d564cdc060"
     },
     "stats": {
       "total": 3,
       "additions": 3,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.4,
+    "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T06:47:43.000Z",
+      "message": "fix: usar parseFloat en precio para no truncar decimales",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-09-10"
     },
     "coverage": 97.4,

@@ -31,7 +31,7 @@ form.addEventListener("submit", (event) => {
   event.preventDefault();
 
   const cantidad = Number.parseInt(cantidadInput.value);
-  const precio = Number.parseInt(precioUnitarioInput.value);
+  const precio = Number.parseFloat(precioUnitarioInput.value);
   const estado = codigoEstadoInput.value.trim().toUpperCase();
   const categoria = categoriaInput.value.trim();
   const peso = Number.parseFloat(pesoInput.value);

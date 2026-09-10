@@ -1432,9 +1432,15 @@
     "testId": 76
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d981ebc9199a3270a3f3852f19a630d564cdc060",
     "commitName": "feat: mostrar descuento fijo y precio total actualizado en pantalla",
     "commitTimestamp": 1789021938195,
     "testId": 76
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: usar parseFloat en precio para no truncar decimales",
+    "commitTimestamp": 1789022865204,
+    "testId": 77
   }
 ]
