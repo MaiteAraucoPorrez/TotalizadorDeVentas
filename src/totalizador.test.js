@@ -196,4 +196,9 @@ describe("Totalizar", () => {
     expect(totalizador.obtenerCostoEnvioUnidad()).toEqual(9);
   });
 
+  it("deberia obtener el costo de envio total", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15);
+    expect(totalizador.calcularCostoEnvioTotal()).toEqual(70); // 20 * 3.5
+  });
+
 });

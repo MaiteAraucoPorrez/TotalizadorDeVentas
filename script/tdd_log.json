@@ -1020,9 +1020,31 @@
     "testId": 58
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4134e810c198664b53f901492d588ba148b4ac22",
     "commitName": "test: agregar prueba costo de envio para peso mayor a 200",
     "commitTimestamp": 1789005341151,
     "testId": 58
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1789005523268,
+    "success": false,
+    "testId": 59
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1789005562620,
+    "success": true,
+    "testId": 59
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular costo de envio total",
+    "commitTimestamp": 1789005620178,
+    "testId": 59
   }
 ]

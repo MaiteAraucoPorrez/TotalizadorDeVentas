@@ -107,6 +107,11 @@ class Totalizador {
         return 9;
     }
 
+    calcularCostoEnvioTotal() {
+        const costoEnvioUnidad = this.obtenerCostoEnvioUnidad();
+        return costoEnvioUnidad * this.cantidad;
+    }
+
     calcularPrecioTotal() {
         const precioNeto = this.calcularPrecioNeto();
         const impuesto = this.calcularImpuesto();
