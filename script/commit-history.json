@@ -1121,12 +1121,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b49162e12c44b5e0b4ee73d3e9a1763f69f5dccd",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T02:00:19.000Z",
       "message": "feat: calcular costo de envio total",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/b49162e12c44b5e0b4ee73d3e9a1763f69f5dccd"
     },
     "stats": {
       "total": 10,
@@ -1136,6 +1136,25 @@
     },
     "coverage": 96.72,
     "test_count": 41,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T03:42:43.000Z",
+      "message": "feat: incluir costo de envio en precio total",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.77,
+    "test_count": 42,
     "failed_tests": 0,
     "conclusion": "success"
   }

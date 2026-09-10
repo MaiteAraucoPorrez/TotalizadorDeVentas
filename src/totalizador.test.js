@@ -201,4 +201,9 @@ describe("Totalizar", () => {
     expect(totalizador.calcularCostoEnvioTotal()).toEqual(70); // 20 * 3.5
   });
 
+  it("deberia calcular el precio total con descuentos, impuestos y costo de envio", () => {
+    const totalizador = new Totalizador(100, 10, "CA", "Alimentos", 15);
+    expect(totalizador.calcularPrecioTotal()).toEqual(1382.5); //1000 + 82.5 - 30 - 20 + 350
+  });
+
 });

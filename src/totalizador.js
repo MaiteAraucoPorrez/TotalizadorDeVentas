@@ -32,7 +32,7 @@ class Totalizador {
     this.precioUnitario = precioUnitario;
     this.estado = estado;
     this.categoria = categoria;
-    this.peso = peso;
+    this.peso = peso || 0;
     }
 
     validarCantidad() {
@@ -118,8 +118,9 @@ class Totalizador {
         const descuento = this.calcularDescuento();
         const impuestoCategoria = this.calcularImpuestoCategoria();
         const descuentoCategoria = this.calcularDescuentoCategoria();
+        const costoEnvioTotal = this.calcularCostoEnvioTotal();
 
-        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria;
+        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria + costoEnvioTotal;
     }
 }
 export default Totalizador;

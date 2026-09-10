@@ -1042,9 +1042,55 @@
     "testId": 59
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b49162e12c44b5e0b4ee73d3e9a1763f69f5dccd",
     "commitName": "feat: calcular costo de envio total",
     "commitTimestamp": 1789005620178,
     "testId": 59
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 1,
+    "numTotalTests": 42,
+    "timestamp": 1789005885362,
+    "success": false,
+    "testId": 60
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 4,
+    "numTotalTests": 42,
+    "timestamp": 1789005917033,
+    "success": false,
+    "testId": 60
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1789006065305,
+    "success": true,
+    "testId": 60
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1789006747282,
+    "success": true,
+    "testId": 60
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1789011732334,
+    "success": true,
+    "testId": 60
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir costo de envio en precio total",
+    "commitTimestamp": 1789011764668,
+    "testId": 60
   }
 ]
