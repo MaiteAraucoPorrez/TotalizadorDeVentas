@@ -129,6 +129,12 @@ class Totalizador {
         return this.calcularCostoEnvioBruto() * (porcentaje / 100);
     }
 
+    calcularCostoEnvioTotal() {
+        const costoEnvioBruto = this.calcularCostoEnvioBruto();
+        const descuentoEnvio = this.calcularDescuentoEnvio();
+        return costoEnvioBruto - descuentoEnvio;
+    }
+
     calcularPrecioTotal() {
         const precioNeto = this.calcularPrecioNeto();
         const impuesto = this.calcularImpuesto();

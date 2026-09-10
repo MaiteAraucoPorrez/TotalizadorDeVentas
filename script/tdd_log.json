@@ -1264,9 +1264,47 @@
     "testId": 68
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fc0f654041363031a76808204aa41e27f6f8d109",
     "commitName": "feat: calcular descuento de envio en dolares",
     "commitTimestamp": 1789017428839,
     "testId": 68
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1789018362034,
+    "success": false,
+    "testId": 69
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1789018395090,
+    "success": true,
+    "testId": 69
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 1,
+    "numTotalTests": 48,
+    "timestamp": 1789018801220,
+    "success": false,
+    "testId": 69
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1789018825699,
+    "success": true,
+    "testId": 69
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de envio al costo de envio total",
+    "commitTimestamp": 1789018879729,
+    "testId": 69
   }
 ]
