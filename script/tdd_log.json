@@ -1176,9 +1176,23 @@
     "testId": 64
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2dfe56acbfa952e0adcda611dbfff04754fa62b1",
     "commitName": "feat: generalizar descuento de envio por tipo de cliente",
     "commitTimestamp": 1789015481621,
     "testId": 64
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789015759031,
+    "success": true,
+    "testId": 65
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar prueba descuento envio para Antiguo Recurrente",
+    "commitTimestamp": 1789015814994,
+    "testId": 65
   }
 ]

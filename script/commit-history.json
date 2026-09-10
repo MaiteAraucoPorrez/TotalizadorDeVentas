@@ -1216,12 +1216,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2dfe56acbfa952e0adcda611dbfff04754fa62b1",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T04:44:40.000Z",
       "message": "feat: generalizar descuento de envio por tipo de cliente",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/2dfe56acbfa952e0adcda611dbfff04754fa62b1"
     },
     "stats": {
       "total": 14,
@@ -1231,6 +1231,25 @@
     },
     "coverage": 96.92,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T04:50:14.000Z",
+      "message": "test: agregar prueba descuento envio para Antiguo Recurrente",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.92,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }
