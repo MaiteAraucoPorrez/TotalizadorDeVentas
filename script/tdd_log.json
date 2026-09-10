@@ -1006,9 +1006,23 @@
     "testId": 57
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c7b171de8c898feccae7f0af36e0217163f0f2ae",
     "commitName": "test: agregar prueba costo de envio para tramo 101-200",
     "commitTimestamp": 1789001862754,
     "testId": 57
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1789005311725,
+    "success": true,
+    "testId": 58
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar prueba costo de envio para peso mayor a 200",
+    "commitTimestamp": 1789005341151,
+    "testId": 58
   }
 ]
