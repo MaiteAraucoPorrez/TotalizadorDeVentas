@@ -221,4 +221,9 @@ describe("Totalizar", () => {
     expect(totalizador.obtenerPorcentajeDescuentoTipoCliente()).toEqual(1);
   });
 
+  it("deberia obtener el porcentaje de descuento de envio para cliente Especial", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Especial");
+    expect(totalizador.obtenerPorcentajeDescuentoTipoCliente()).toEqual(1.5);
+  });
+
 });

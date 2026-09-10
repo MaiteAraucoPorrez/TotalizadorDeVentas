@@ -1254,12 +1254,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c954af3d5004812725a1f85282636249ed17dacd",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T04:52:10.000Z",
       "message": "refactor: implementar diccionario de descuentos de envio por tipo cliente fuera del metodo",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/c954af3d5004812725a1f85282636249ed17dacd"
     },
     "stats": {
       "total": 14,
@@ -1269,6 +1269,25 @@
     },
     "coverage": 96.92,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T04:56:49.000Z",
+      "message": "test: agregar test descuento envio para cliente Especial",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.92,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

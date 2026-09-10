@@ -1204,9 +1204,23 @@
     "testId": 66
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c954af3d5004812725a1f85282636249ed17dacd",
     "commitName": "refactor: implementar diccionario de descuentos de envio por tipo cliente fuera del metodo",
     "commitTimestamp": 1789015931510,
     "testId": 66
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1789016029541,
+    "success": true,
+    "testId": 67
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar test descuento envio para cliente Especial",
+    "commitTimestamp": 1789016210535,
+    "testId": 67
   }
 ]
