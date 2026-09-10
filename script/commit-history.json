@@ -1197,12 +1197,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f1ef0f781bfb244eb658a460e66cec7e2877f3a6",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T04:41:19.000Z",
       "message": "feat: obtener porcentaje descuento envio para cliente Normal",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/f1ef0f781bfb244eb658a460e66cec7e2877f3a6"
     },
     "stats": {
       "total": 12,
@@ -1212,6 +1212,25 @@
     },
     "coverage": 96.88,
     "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T04:44:40.000Z",
+      "message": "feat: generalizar descuento de envio por tipo de cliente",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.92,
+    "test_count": 44,
     "failed_tests": 0,
     "conclusion": "success"
   }

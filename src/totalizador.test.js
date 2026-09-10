@@ -211,4 +211,9 @@ describe("Totalizar", () => {
     expect(totalizador.obtenerPorcentajeDescuentoTipoCliente()).toEqual(0);
   });
 
+  it("deberia obtener el porcentaje de descuento de envio para cliente Recurrente", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Recurrente");
+    expect(totalizador.obtenerPorcentajeDescuentoTipoCliente()).toEqual(0.5);
+  });
+
 });

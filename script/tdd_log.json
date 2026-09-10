@@ -1154,9 +1154,31 @@
     "testId": 63
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f1ef0f781bfb244eb658a460e66cec7e2877f3a6",
     "commitName": "feat: obtener porcentaje descuento envio para cliente Normal",
     "commitTimestamp": 1789015280250,
     "testId": 63
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1789015356567,
+    "success": false,
+    "testId": 64
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1789015448554,
+    "success": true,
+    "testId": 64
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: generalizar descuento de envio por tipo de cliente",
+    "commitTimestamp": 1789015481621,
+    "testId": 64
   }
 ]

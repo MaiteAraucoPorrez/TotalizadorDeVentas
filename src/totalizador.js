@@ -114,7 +114,14 @@ class Totalizador {
     }
 
     obtenerPorcentajeDescuentoTipoCliente() {
-        return 0;
+        const DESCUENTO_ENVIO_POR_TIPO_CLIENTE = {
+            "Normal": 0,
+            "Recurrente": 0.5,
+            "Antiguo Recurrente": 1,
+            "Especial": 1.5,
+        };
+
+        return DESCUENTO_ENVIO_POR_TIPO_CLIENTE[this.tipoCliente] || 0;
     }
 
     calcularPrecioTotal() {
