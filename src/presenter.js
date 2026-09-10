@@ -41,9 +41,10 @@ form.addEventListener("submit", (event) => {
 
   const errorCantidad = totalizador.validarCantidad();
   const errorPrecio = totalizador.validarPrecio();
+  const errorPeso = totalizador.validarPeso();
 
-  if (errorCantidad || errorPrecio) {
-    div.innerHTML = "<p>" + (errorCantidad || errorPrecio) + "</p>";
+  if (errorCantidad || errorPrecio || errorPeso) {
+    div.innerHTML = "<p>" + (errorCantidad || errorPrecio || errorPeso) + "</p>";
     ultimoTotalCalculado = null;
     return;
   }

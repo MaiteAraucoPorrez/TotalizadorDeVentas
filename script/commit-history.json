@@ -1501,17 +1501,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a43dcc86a5d1d15919cb257f6c4af15723c9b1e8",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T06:56:25.000Z",
       "message": "feat: validar peso volumetrico cero o negativo",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/a43dcc86a5d1d15919cb257f6c4af15723c9b1e8"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.25,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T06:57:30.000Z",
+      "message": "feat: mostrar error de peso volumetrico invalido en pantalla",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 3,
+      "deletions": 2,
       "date": "2026-09-10"
     },
     "coverage": 96.25,

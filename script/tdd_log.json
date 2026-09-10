@@ -1466,9 +1466,15 @@
     "testId": 79
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a43dcc86a5d1d15919cb257f6c4af15723c9b1e8",
     "commitName": "feat: validar peso volumetrico cero o negativo",
     "commitTimestamp": 1789023386928,
     "testId": 79
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error de peso volumetrico invalido en pantalla",
+    "commitTimestamp": 1789023451693,
+    "testId": 80
   }
 ]
