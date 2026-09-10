@@ -1330,17 +1330,55 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9832a0c24bf4af6e8690ae37b1db6d3fa55bfac9",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T05:45:27.000Z",
       "message": "feat: incluir calculo de costo de envio total en precio total",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/9832a0c24bf4af6e8690ae37b1db6d3fa55bfac9"
     },
     "stats": {
       "total": 10,
       "additions": 8,
       "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.14,
+    "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "9832a0c24bf4af6e8690ae37b1db6d3fa55bfac9",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T05:55:57.000Z",
+      "message": "feat: feat: mostrar detalles del costo de envio y precio total de la compra en pantalla",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/9832a0c24bf4af6e8690ae37b1db6d3fa55bfac9"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.14,
+    "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T05:57:03.000Z",
+      "message": "feat: mostrar detalles del costo de envio y precio total de la compra en pantalla",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
       "date": "2026-09-10"
     },
     "coverage": 97.14,

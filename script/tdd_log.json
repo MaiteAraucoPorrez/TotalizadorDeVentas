@@ -1324,9 +1324,29 @@
     "testId": 70
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9832a0c24bf4af6e8690ae37b1db6d3fa55bfac9",
     "commitName": "feat: incluir calculo de costo de envio total en precio total",
     "commitTimestamp": 1789019129078,
     "testId": 70
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1789019261295,
+    "success": true,
+    "testId": 71
+  },
+  {
+    "commitId": "9832a0c24bf4af6e8690ae37b1db6d3fa55bfac9",
+    "commitName": "feat: feat: mostrar detalles del costo de envio y precio total de la compra en pantalla",
+    "commitTimestamp": 1789019759159,
+    "testId": 71
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar detalles del costo de envio y precio total de la compra en pantalla",
+    "commitTimestamp": 1789019824389,
+    "testId": 72
   }
 ]
