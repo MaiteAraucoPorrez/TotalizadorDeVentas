@@ -1116,9 +1116,47 @@
     "testId": 62
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d81482174038e2e31956ba9c3634068aecf2751b",
     "commitName": "feat: agregar select de tipo de cliente con Normal por defecto",
     "commitTimestamp": 1789014861974,
     "testId": 62
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1789015063300,
+    "success": false,
+    "testId": 63
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1789015098428,
+    "success": false,
+    "testId": 63
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1789015122746,
+    "success": true,
+    "testId": 63
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1789015205477,
+    "success": true,
+    "testId": 63
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener porcentaje descuento envio para cliente Normal",
+    "commitTimestamp": 1789015280250,
+    "testId": 63
   }
 ]

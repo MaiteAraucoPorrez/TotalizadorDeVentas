@@ -1178,12 +1178,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d81482174038e2e31956ba9c3634068aecf2751b",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T04:34:21.000Z",
       "message": "feat: agregar select de tipo de cliente con Normal por defecto",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/d81482174038e2e31956ba9c3634068aecf2751b"
     },
     "stats": {
       "total": 11,
@@ -1193,6 +1193,25 @@
     },
     "coverage": 96.77,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T04:41:19.000Z",
+      "message": "feat: obtener porcentaje descuento envio para cliente Normal",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.88,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -206,4 +206,9 @@ describe("Totalizar", () => {
     expect(totalizador.calcularPrecioTotal()).toEqual(1382.5); //1000 + 82.5 - 30 - 20 + 350
   });
 
+  it("deberia obtener el porcentaje de descuento de envio para cliente Normal", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Normal");
+    expect(totalizador.obtenerPorcentajeDescuentoTipoCliente()).toEqual(0);
+  });
+
 });
