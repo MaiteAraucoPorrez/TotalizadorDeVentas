@@ -250,4 +250,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(200, 40, "CA", "Electronicos", 15, "Especial"); // neto=8000
     expect(totalizador.obtenerDescuentoFijo()).toEqual(200);
   });
+
+  it("deberia calcular el precio total incluyendo el descuento fijo", () => {
+    const totalizador = new Totalizador(100, 40, "CA", "Alimentos", 15, "Recurrente"); // neto=4000
+    expect(totalizador.calcularPrecioTotal()).toBeCloseTo(4298.25);
+  });
 });

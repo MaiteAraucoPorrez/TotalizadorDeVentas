@@ -1396,9 +1396,31 @@
     "testId": 74
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d83512f2612c4a361aab4299515dd2d8ec560444",
     "commitName": "feat: generalizar descuento fijo segun tipo cliente, categoria y neto",
     "commitTimestamp": 1789021443110,
     "testId": 74
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1789021566983,
+    "success": false,
+    "testId": 75
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1789021624214,
+    "success": true,
+    "testId": 75
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir descuento fijo en precio total",
+    "commitTimestamp": 1789021658978,
+    "testId": 75
   }
 ]

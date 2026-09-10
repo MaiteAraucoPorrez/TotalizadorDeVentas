@@ -153,9 +153,9 @@ class Totalizador {
         const impuestoCategoria = this.calcularImpuestoCategoria();
         const descuentoCategoria = this.calcularDescuentoCategoria();
         const costoEnvioTotal = this.calcularCostoEnvioTotal();
+        const descuentoFijo = this.obtenerDescuentoFijo();
 
-
-        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria + costoEnvioTotal;
+        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria + costoEnvioTotal - descuentoFijo;
     }
 }
 export default Totalizador;

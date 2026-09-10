@@ -1406,12 +1406,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d83512f2612c4a361aab4299515dd2d8ec560444",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T06:24:01.000Z",
       "message": "feat: generalizar descuento fijo segun tipo cliente, categoria y neto",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/d83512f2612c4a361aab4299515dd2d8ec560444"
     },
     "stats": {
       "total": 27,
@@ -1421,6 +1421,25 @@
     },
     "coverage": 96.05,
     "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T06:27:37.000Z",
+      "message": "feat: incluir descuento fijo en precio total",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.4,
+    "test_count": 52,
     "failed_tests": 0,
     "conclusion": "success"
   }
