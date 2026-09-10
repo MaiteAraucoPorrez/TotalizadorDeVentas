@@ -1418,9 +1418,23 @@
     "testId": 75
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cdbe8f5523950eb04de8f983bc1c11fb01d6e93b",
     "commitName": "feat: incluir descuento fijo en precio total",
     "commitTimestamp": 1789021658978,
     "testId": 75
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1789021801691,
+    "success": true,
+    "testId": 76
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar descuento fijo y precio total actualizado en pantalla",
+    "commitTimestamp": 1789021938195,
+    "testId": 76
   }
 ]

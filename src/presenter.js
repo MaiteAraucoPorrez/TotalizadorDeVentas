@@ -64,6 +64,8 @@ form.addEventListener("submit", (event) => {
   const descuentoEnvio = totalizador.calcularDescuentoEnvio();
   const costoEnvioTotal = totalizador.calcularCostoEnvioTotal();
   
+  const descuentoFijo = totalizador.obtenerDescuentoFijo();
+  
   const total = totalizador.calcularPrecioTotal();
   ultimoTotalCalculado = total;
 
@@ -75,5 +77,6 @@ form.addEventListener("submit", (event) => {
                   + "<p>" + "Costo de envío: $" + costoEnvioBruto + "</p>"
                   + "<p>" + "Descuento de envío por ser cliente " + tipoCliente + ": $" + descuentoEnvio + "</p>"
                   + "<p>" + "Costo de envío total: $" + costoEnvioTotal + "</p>"
+                  + "<p>" + "Descuento fijo aplicado " + ": $" + descuentoFijo + "</p>"
                   + "<p>" + "Precio total (impuestos + descuentos + costo de envío): $" + total + "</p>";
 });
