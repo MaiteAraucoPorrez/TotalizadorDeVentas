@@ -1538,9 +1538,15 @@
     "testId": 83
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f86dbd2dd37bd58e45fd5b4316a489760dfefa24",
     "commitName": "refactor: extraer calculo de monto por porcentaje a metodo comun",
     "commitTimestamp": 1789026138315,
     "testId": 83
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar la operacion completa de cada calculo en pantalla",
+    "commitTimestamp": 1789030587868,
+    "testId": 84
   }
 ]

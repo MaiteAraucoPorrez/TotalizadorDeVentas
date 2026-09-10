@@ -13,6 +13,16 @@ const cancelarButton = document.querySelector("#cancelar-button");
 const confirmarButton = document.querySelector("#confirmar-button");
 let ultimoTotalCalculado = null;
 
+function describirDescuentoFijo(tipoCliente, categoria, neto) {
+  if (tipoCliente === "Recurrente" && categoria === "Alimentos" && neto > 3000) {
+    return "por ser cliente Recurrente comprando en la categoria Alimentos con precio neto mayor a $3000";
+  }
+  if (tipoCliente === "Especial" && categoria === "Electronicos" && neto > 7000) {
+    return "por ser cliente Especial comprando en la categoria Electronicos con precio neto mayor a $7000";
+  }
+  return "no aplica ninguna condicion de descuento fijo";
+}
+
 cancelarButton.addEventListener("click", () => {
   form.reset();
   div.innerHTML = "<p>" + "Compra cancelada" + "</p>";
@@ -62,7 +72,9 @@ form.addEventListener("submit", (event) => {
   const porcentajeDescuentoAdicionalCategoria = totalizador.obtenerPorcentajeDescuentoAdicionalCategoria();
   const descuentoCategoria = totalizador.calcularDescuentoCategoria();
 
+  const costoEnvioUnidad = totalizador. obtenerCostoEnvioUnidad();
   const costoEnvioBruto = totalizador.calcularCostoEnvioBruto();
+  const porcentajeDescuentoEnvio = totalizador.obtenerPorcentajeDescuentoTipoCliente();
   const descuentoEnvio = totalizador.calcularDescuentoEnvio();
   const costoEnvioTotal = totalizador.calcularCostoEnvioTotal();
   
@@ -71,14 +83,14 @@ form.addEventListener("submit", (event) => {
   const total = totalizador.calcularPrecioTotal();
   ultimoTotalCalculado = total;
 
-  div.innerHTML = "<p>" + "Precio neto: " + "(" + cantidad + " x $" + precio + ")" + ": $" + neto + "</p>"
-                  + "<p>" + "Impuesto para " + estado + " (%" + porcentajeImpuesto + ")" + ": $" + impuesto + "</p>"
-                  + "<p>" + "Descuento " + " (%" + porcentajeDescuento + ")" + ": $" + descuento + "</p>"
-                  + "<p>" + "Impuesto adicional por categoría " + categoria + " (%" + porcentajeImpuestoAdicionalCategoria + ")" + ": $" + impuestoCategoria + "</p>"
-                  + "<p>" + "Descuento adicional por categoría " + categoria + " (%" + porcentajeDescuentoAdicionalCategoria + ")" + ": $" + descuentoCategoria + "</p>"
-                  + "<p>" + "Costo de envío: $" + costoEnvioBruto + "</p>"
-                  + "<p>" + "Descuento de envío por ser cliente " + tipoCliente + ": $" + descuentoEnvio + "</p>"
-                  + "<p>" + "Costo de envío total: $" + costoEnvioTotal + "</p>"
-                  + "<p>" + "Descuento fijo aplicado " + ": $" + descuentoFijo + "</p>"
-                  + "<p>" + "Precio total (impuestos + descuentos + costo de envío): $" + total + "</p>";
+  div.innerHTML = "<p>" + "Precio neto: (" + cantidad + " x $" + precio + "): $" + neto + "</p>"
+                  + "<p>" + "Impuesto para " + estado + ": ($" + neto + " x " + porcentajeImpuesto + "%): $" + impuesto + "</p>"
+                  + "<p>" + "Descuento por monto de compra: ($" + neto + " x " + porcentajeDescuento + "%): $" + descuento + "</p>"
+                  + "<p>" + "Impuesto adicional por categoría " + categoria + ": ($" + neto + " x " + porcentajeImpuestoAdicionalCategoria + "%): $" + impuestoCategoria + "</p>"
+                  + "<p>" + "Descuento adicional por categoría " + categoria + ": ($" + neto + " x " + porcentajeDescuentoAdicionalCategoria + "%): $" + descuentoCategoria + "</p>"
+                  + "<p>" + "Costo de envío: (" + cantidad + " items x $" + costoEnvioUnidad + " por peso " + peso + "): $" + costoEnvioBruto + "</p>"
+                  + "<p>" + "Descuento de envío por ser cliente " + tipoCliente + ": ($" + costoEnvioBruto + " x " + porcentajeDescuentoEnvio + "%): $" + descuentoEnvio + "</p>"
+                  + "<p>" + "Costo de envío total: ($" + costoEnvioBruto + " - $" + descuentoEnvio + "): $" + costoEnvioTotal + "</p>"
+                  + "<p>" + "Descuento fijo aplicado " + describirDescuentoFijo(tipoCliente, categoria, neto) + ": $" + descuentoFijo + "</p>"
+                  + "<p><strong>" + "Precio total: ($" + neto + " + $" + impuesto + " + $" + impuestoCategoria + " - $" + descuento + " - $" + descuentoCategoria + " + $" + costoEnvioTotal + " - $" + descuentoFijo + "): $" + total + "</strong></p>";
 });

@@ -1577,17 +1577,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f86dbd2dd37bd58e45fd5b4316a489760dfefa24",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T07:42:17.000Z",
       "message": "refactor: extraer calculo de monto por porcentaje a metodo comun",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/f86dbd2dd37bd58e45fd5b4316a489760dfefa24"
     },
     "stats": {
       "total": 16,
       "additions": 8,
       "deletions": 8,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.1,
+    "test_count": 55,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T08:56:26.000Z",
+      "message": "feat: mostrar la operacion completa de cada calculo en pantalla",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 23,
+      "deletions": 11,
       "date": "2026-09-10"
     },
     "coverage": 96.1,
