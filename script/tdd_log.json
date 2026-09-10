@@ -1444,9 +1444,31 @@
     "testId": 77
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f5d90073154fb918b7d3d230b574e3ff16106a31",
     "commitName": "fix: resetear ultimoTotalCalculado cuando la validacion falla",
     "commitTimestamp": 1789022957546,
     "testId": 78
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1789023306329,
+    "success": false,
+    "testId": 79
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1789023345649,
+    "success": true,
+    "testId": 79
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar peso volumetrico cero o negativo",
+    "commitTimestamp": 1789023386928,
+    "testId": 79
   }
 ]

@@ -57,6 +57,13 @@ class Totalizador {
         return null;
     }
 
+    validarPeso() {
+        if (this.peso <= 0) {
+            return "Error: debes ingresar un peso volumetrico mayor a cero";
+        }
+        return null;
+    }
+
     calcularPrecioNeto() {
         return this.cantidad * this.precioUnitario;
     }

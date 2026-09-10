@@ -255,4 +255,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(100, 40, "CA", "Alimentos", 15, "Recurrente"); // neto=4000
     expect(totalizador.calcularPrecioTotal()).toBeCloseTo(4298.25);
   });
+
+  it("deberia mostrar error si el peso volumetrico es igual o menor a cero", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Alimentos", -5, "Recurrente");
+    expect(totalizador.validarPeso()).toEqual("Error: debes ingresar un peso volumetrico mayor a cero");
+  });
 });

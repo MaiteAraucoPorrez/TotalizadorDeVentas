@@ -1482,12 +1482,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f5d90073154fb918b7d3d230b574e3ff16106a31",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T06:49:16.000Z",
       "message": "fix: resetear ultimoTotalCalculado cuando la validacion falla",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/f5d90073154fb918b7d3d230b574e3ff16106a31"
     },
     "stats": {
       "total": 1,
@@ -1497,6 +1497,25 @@
     },
     "coverage": 97.4,
     "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T06:56:25.000Z",
+      "message": "feat: validar peso volumetrico cero o negativo",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.25,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }
