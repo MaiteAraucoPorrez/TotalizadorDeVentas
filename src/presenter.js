@@ -4,6 +4,8 @@ const cantidadInput = document.querySelector("#cantidad-item");
 const precioUnitarioInput = document.querySelector("#precio-item");
 const codigoEstadoInput = document.querySelector("#codigo-estado");
 const categoriaInput = document.querySelector("#categoria-producto");
+const pesoInput = document.querySelector("#peso-volumetrico");
+
 const form = document.querySelector("#totalizador-form");
 const div = document.querySelector("#resultado-div");
 const cancelarButton = document.querySelector("#cancelar-button");
@@ -31,8 +33,9 @@ form.addEventListener("submit", (event) => {
   const precio = Number.parseInt(precioUnitarioInput.value);
   const estado = codigoEstadoInput.value.trim().toUpperCase();
   const categoria = categoriaInput.value.trim();
+  const peso = Number.parseFloat(pesoInput.value);
 
-  const totalizador = new Totalizador(cantidad, precio, estado, categoria);
+  const totalizador = new Totalizador(cantidad, precio, estado, categoria, peso);
 
   const errorCantidad = totalizador.validarCantidad();
   const errorPrecio = totalizador.validarPrecio();
@@ -54,6 +57,8 @@ form.addEventListener("submit", (event) => {
 
   const porcentajeDescuentoAdicionalCategoria = totalizador.obtenerPorcentajeDescuentoAdicionalCategoria();
   const descuentoCategoria = totalizador.calcularDescuentoCategoria();
+
+  const costoEnvioTotal = totalizador.calcularCostoEnvioTotal();
   
   const total = totalizador.calcularPrecioTotal();
   ultimoTotalCalculado = total;
@@ -63,5 +68,6 @@ form.addEventListener("submit", (event) => {
                   + "<p>" + "Descuento " + " (%" + porcentajeDescuento + ")" + ": $" + descuento + "</p>"
                   + "<p>" + "Impuesto adicional por categoría " + categoria + " (%" + porcentajeImpuestoAdicionalCategoria + ")" + ": $" + impuestoCategoria + "</p>"
                   + "<p>" + "Descuento adicional por categoría " + categoria + " (%" + porcentajeDescuentoAdicionalCategoria + ")" + ": $" + descuentoCategoria + "</p>"
-                  + "<p>" + "Precio total (impuesto, descuento e impuesto y descuento por categoria): $" + total + "</p>";
+                  + "<p>" + "Costo de envío total: $" + costoEnvioTotal + "</p>"
+                  + "<p>" + "Precio total (impuestos + descuentos + costo de envío): $" + total + "</p>";
 });

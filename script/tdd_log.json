@@ -1088,9 +1088,23 @@
     "testId": 60
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5bd301466e12bc9c1d88fa01597b0c96efce162c",
     "commitName": "feat: incluir costo de envio en precio total",
     "commitTimestamp": 1789011764668,
     "testId": 60
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1789012311735,
+    "success": true,
+    "testId": 61
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar costo de envio y actualizar precio total en pantalla",
+    "commitTimestamp": 1789013261040,
+    "testId": 61
   }
 ]
