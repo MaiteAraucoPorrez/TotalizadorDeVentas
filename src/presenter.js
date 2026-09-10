@@ -44,6 +44,7 @@ form.addEventListener("submit", (event) => {
 
   if (errorCantidad || errorPrecio) {
     div.innerHTML = "<p>" + (errorCantidad || errorPrecio) + "</p>";
+    ultimoTotalCalculado = null;
     return;
   }
 

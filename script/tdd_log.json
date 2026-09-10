@@ -1438,9 +1438,15 @@
     "testId": 76
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6a763cf7417183d79b62d53e947d5f8d0758ab63",
     "commitName": "fix: usar parseFloat en precio para no truncar decimales",
     "commitTimestamp": 1789022865204,
     "testId": 77
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: resetear ultimoTotalCalculado cuando la validacion falla",
+    "commitTimestamp": 1789022957546,
+    "testId": 78
   }
 ]

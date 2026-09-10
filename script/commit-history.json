@@ -1463,17 +1463,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6a763cf7417183d79b62d53e947d5f8d0758ab63",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T06:47:43.000Z",
       "message": "fix: usar parseFloat en precio para no truncar decimales",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/6a763cf7417183d79b62d53e947d5f8d0758ab63"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.4,
+    "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T06:49:16.000Z",
+      "message": "fix: resetear ultimoTotalCalculado cuando la validacion falla",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 97.4,
