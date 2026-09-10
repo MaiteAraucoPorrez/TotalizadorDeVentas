@@ -135,6 +135,10 @@ class Totalizador {
         return costoEnvioBruto - descuentoEnvio;
     }
 
+    obtenerDescuentoFijo() {
+        return 100;
+    }
+
     calcularPrecioTotal() {
         const precioNeto = this.calcularPrecioNeto();
         const impuesto = this.calcularImpuesto();

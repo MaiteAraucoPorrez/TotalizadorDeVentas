@@ -1368,12 +1368,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "59dbb1df0040d55734238fb9f5458654b6c61d2f",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T05:57:03.000Z",
       "message": "feat: mostrar detalles del costo de envio y precio total de la compra en pantalla",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/59dbb1df0040d55734238fb9f5458654b6c61d2f"
     },
     "stats": {
       "total": 8,
@@ -1383,6 +1383,25 @@
     },
     "coverage": 97.14,
     "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T06:19:33.000Z",
+      "message": "feat: obtener descuento fijo para cliente Recurrente con categoria Alimentos",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.18,
+    "test_count": 50,
     "failed_tests": 0,
     "conclusion": "success"
   }

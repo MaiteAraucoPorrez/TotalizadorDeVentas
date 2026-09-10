@@ -1344,9 +1344,39 @@
     "testId": 71
   },
   {
-    "commitId": "HEAD",
+    "commitId": "59dbb1df0040d55734238fb9f5458654b6c61d2f",
     "commitName": "feat: mostrar detalles del costo de envio y precio total de la compra en pantalla",
     "commitTimestamp": 1789019824389,
     "testId": 72
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1789021105157,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 1,
+    "numTotalTests": 50,
+    "timestamp": 1789021112562,
+    "success": false,
+    "testId": 73
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1789021138933,
+    "success": true,
+    "testId": 73
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: obtener descuento fijo para cliente Recurrente con categoria Alimentos",
+    "commitTimestamp": 1789021174511,
+    "testId": 73
   }
 ]

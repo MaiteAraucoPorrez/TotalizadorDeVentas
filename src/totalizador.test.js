@@ -196,7 +196,7 @@ describe("Totalizar", () => {
     expect(totalizador.obtenerCostoEnvioUnidad()).toEqual(9);
   });
 
-  it("deberia obtener el costo de envio total", () => {
+  it("deberia obtener el costo de envio bruto", () => {
     const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15);
     expect(totalizador.calcularCostoEnvioBruto()).toEqual(70); // 20 * 3.5
   });
@@ -240,5 +240,10 @@ it("deberia calcular el precio total incluyendo el descuento de envio por tipo d
     const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Recurrente");
     expect(totalizador.calcularPrecioTotal()).toEqual(133.4); //60 +4.95 +0 -0 -1.2 + 69.65
   });
+
+  it("deberia obtener el descuento fijo para cliente Recurrente con categoria Alimentos y neto mayor a 3000", () => {
+  const totalizador = new Totalizador(100, 40, "CA", "Alimentos", 15, "Recurrente"); // neto=4000
+  expect(totalizador.obtenerDescuentoFijo()).toEqual(100);
+});
 
 });
