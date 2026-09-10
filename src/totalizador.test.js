@@ -260,4 +260,9 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(20, 3, "CA", "Alimentos", -5, "Recurrente");
     expect(totalizador.validarPeso()).toEqual("Error: debes ingresar un peso volumetrico mayor a cero");
   });
+
+  it("deberia mostrar error si la cantidad no es un numero valido", () => {
+    const totalizador = new Totalizador(NaN, 3, "CA");
+    expect(totalizador.validarCantidad()).toEqual("Error: la cantidad debe ser mayor a cero");
+  });
 });

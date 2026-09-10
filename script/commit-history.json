@@ -1520,12 +1520,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bb73559b6434ef77b5f5ee7fcb397cb7d7a160a0",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T06:57:30.000Z",
       "message": "feat: mostrar error de peso volumetrico invalido en pantalla",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/bb73559b6434ef77b5f5ee7fcb397cb7d7a160a0"
     },
     "stats": {
       "total": 5,
@@ -1535,6 +1535,25 @@
     },
     "coverage": 96.25,
     "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T07:09:41.000Z",
+      "message": "fix: manejar cantidad invalida (NaN) como informacion faltante",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.25,
+    "test_count": 54,
     "failed_tests": 0,
     "conclusion": "success"
   }

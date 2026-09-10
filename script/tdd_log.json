@@ -1472,9 +1472,31 @@
     "testId": 79
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bb73559b6434ef77b5f5ee7fcb397cb7d7a160a0",
     "commitName": "feat: mostrar error de peso volumetrico invalido en pantalla",
     "commitTimestamp": 1789023451693,
     "testId": 80
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 1,
+    "numTotalTests": 54,
+    "timestamp": 1789024091770,
+    "success": false,
+    "testId": 81
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1789024109989,
+    "success": true,
+    "testId": 81
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: manejar cantidad invalida (NaN) como informacion faltante",
+    "commitTimestamp": 1789024183183,
+    "testId": 81
   }
 ]
