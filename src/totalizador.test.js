@@ -232,18 +232,22 @@ describe("Totalizar", () => {
   });
 
   it("deberia calcular el costo de envio total con descuento por tipo de cliente", () => {
-  const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Recurrente");
-  expect(totalizador.calcularCostoEnvioTotal()).toBeCloseTo(69.65); // 70 - 0.35
-});
+    const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Recurrente");
+    expect(totalizador.calcularCostoEnvioTotal()).toBeCloseTo(69.65); // 70 - 0.35
+  });
 
-it("deberia calcular el precio total incluyendo el descuento de envio por tipo de cliente", () => {
+  it("deberia calcular el precio total incluyendo el descuento de envio por tipo de cliente", () => {
     const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Recurrente");
     expect(totalizador.calcularPrecioTotal()).toEqual(133.4); //60 +4.95 +0 -0 -1.2 + 69.65
   });
 
   it("deberia obtener el descuento fijo para cliente Recurrente con categoria Alimentos y neto mayor a 3000", () => {
-  const totalizador = new Totalizador(100, 40, "CA", "Alimentos", 15, "Recurrente"); // neto=4000
-  expect(totalizador.obtenerDescuentoFijo()).toEqual(100);
-});
+    const totalizador = new Totalizador(100, 40, "CA", "Alimentos", 15, "Recurrente"); // neto=4000
+    expect(totalizador.obtenerDescuentoFijo()).toEqual(100);
+  });
 
+  it("deberia obtener el descuento fijo para cliente Especial con categoria Electronicos y neto mayor a 7000", () => {
+    const totalizador = new Totalizador(200, 40, "CA", "Electronicos", 15, "Especial"); // neto=8000
+    expect(totalizador.obtenerDescuentoFijo()).toEqual(200);
+  });
 });

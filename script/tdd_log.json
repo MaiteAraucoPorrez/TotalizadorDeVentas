@@ -1374,9 +1374,31 @@
     "testId": 73
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8ef6dbc790ffe7f0e6314a3dd14288b9cd1713bd",
     "commitName": "feat: obtener descuento fijo para cliente Recurrente con categoria Alimentos",
     "commitTimestamp": 1789021174511,
     "testId": 73
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 1,
+    "numTotalTests": 51,
+    "timestamp": 1789021353012,
+    "success": false,
+    "testId": 74
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1789021406674,
+    "success": true,
+    "testId": 74
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: generalizar descuento fijo segun tipo cliente, categoria y neto",
+    "commitTimestamp": 1789021443110,
+    "testId": 74
   }
 ]

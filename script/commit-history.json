@@ -1387,12 +1387,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8ef6dbc790ffe7f0e6314a3dd14288b9cd1713bd",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T06:19:33.000Z",
       "message": "feat: obtener descuento fijo para cliente Recurrente con categoria Alimentos",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/8ef6dbc790ffe7f0e6314a3dd14288b9cd1713bd"
     },
     "stats": {
       "total": 11,
@@ -1402,6 +1402,25 @@
     },
     "coverage": 97.18,
     "test_count": 50,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T06:24:01.000Z",
+      "message": "feat: generalizar descuento fijo segun tipo cliente, categoria y neto",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 19,
+      "deletions": 8,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.05,
+    "test_count": 51,
     "failed_tests": 0,
     "conclusion": "success"
   }

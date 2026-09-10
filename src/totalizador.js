@@ -136,7 +136,14 @@ class Totalizador {
     }
 
     obtenerDescuentoFijo() {
-        return 100;
+        const neto = this.calcularPrecioNeto();
+        if (this.tipoCliente === "Recurrente" && this.categoria === "Alimentos" && neto > 3000) {
+            return 100;
+        }
+        if (this.tipoCliente === "Especial" && this.categoria === "Electronicos" && neto > 7000) {
+            return 200;
+        }
+        return 0;
     }
 
     calcularPrecioTotal() {
