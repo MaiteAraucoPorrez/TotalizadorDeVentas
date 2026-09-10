@@ -198,7 +198,7 @@ describe("Totalizar", () => {
 
   it("deberia obtener el costo de envio total", () => {
     const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15);
-    expect(totalizador.calcularCostoEnvioTotal()).toEqual(70); // 20 * 3.5
+    expect(totalizador.calcularCostoEnvioBruto()).toEqual(70); // 20 * 3.5
   });
 
   it("deberia calcular el precio total con descuentos, impuestos y costo de envio", () => {
@@ -224,6 +224,11 @@ describe("Totalizar", () => {
   it("deberia obtener el porcentaje de descuento de envio para cliente Especial", () => {
     const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Especial");
     expect(totalizador.obtenerPorcentajeDescuentoTipoCliente()).toEqual(1.5);
+  });
+
+  it("deberia calcular el descuento de envio en dolares para cliente Recurrente", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Recurrente");
+    expect(totalizador.calcularDescuentoEnvio()).toBeCloseTo(0.35);
   });
 
 });

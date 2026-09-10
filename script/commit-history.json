@@ -1273,12 +1273,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1c0eddf160b3c3fcc06236ee69f918cfda4f1423",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T04:56:49.000Z",
       "message": "test: agregar test descuento envio para cliente Especial",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/1c0eddf160b3c3fcc06236ee69f918cfda4f1423"
     },
     "stats": {
       "total": 5,
@@ -1288,6 +1288,25 @@
     },
     "coverage": 96.92,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T05:17:08.000Z",
+      "message": "feat: calcular descuento de envio en dolares",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 14,
+      "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.01,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

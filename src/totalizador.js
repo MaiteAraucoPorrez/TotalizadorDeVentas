@@ -115,7 +115,7 @@ class Totalizador {
         return 9;
     }
 
-    calcularCostoEnvioTotal() {
+    calcularCostoEnvioBruto() {
         const costoEnvioUnidad = this.obtenerCostoEnvioUnidad();
         return costoEnvioUnidad * this.cantidad;
     }
@@ -124,15 +124,20 @@ class Totalizador {
         return DESCUENTO_ENVIO_POR_TIPO_CLIENTE[this.tipoCliente] || 0;
     }
 
+    calcularDescuentoEnvio() {
+        const porcentaje = this.obtenerPorcentajeDescuentoTipoCliente();
+        return this.calcularCostoEnvioBruto() * (porcentaje / 100);
+    }
+
     calcularPrecioTotal() {
         const precioNeto = this.calcularPrecioNeto();
         const impuesto = this.calcularImpuesto();
         const descuento = this.calcularDescuento();
         const impuestoCategoria = this.calcularImpuestoCategoria();
         const descuentoCategoria = this.calcularDescuentoCategoria();
-        const costoEnvioTotal = this.calcularCostoEnvioTotal();
+        const costoEnvioBruto = this.calcularCostoEnvioBruto();
 
-        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria + costoEnvioTotal;
+        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria + costoEnvioBruto;
     }
 }
 export default Totalizador;

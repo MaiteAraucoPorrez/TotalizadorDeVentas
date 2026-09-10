@@ -1218,9 +1218,55 @@
     "testId": 67
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1c0eddf160b3c3fcc06236ee69f918cfda4f1423",
     "commitName": "test: agregar test descuento envio para cliente Especial",
     "commitTimestamp": 1789016210535,
     "testId": 67
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1789016811777,
+    "success": true,
+    "testId": 68
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1789016856838,
+    "success": false,
+    "testId": 68
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1789017092454,
+    "success": false,
+    "testId": 68
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1789017189931,
+    "success": false,
+    "testId": 68
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1789017389314,
+    "success": true,
+    "testId": 68
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento de envio en dolares",
+    "commitTimestamp": 1789017428839,
+    "testId": 68
   }
 ]
