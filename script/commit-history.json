@@ -1026,12 +1026,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7b95ee597df1874af367fa7396599cda43875c95",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-09T23:59:46.000Z",
       "message": "test: agregar prueba costo de envio para tramo 21-40",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/7b95ee597df1874af367fa7396599cda43875c95"
     },
     "stats": {
       "total": 4,
@@ -1041,6 +1041,25 @@
     },
     "coverage": 84.75,
     "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T00:15:26.000Z",
+      "message": "test: agregar prueba costo de envio para tramo 41-80",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 88.14,
+    "test_count": 37,
     "failed_tests": 0,
     "conclusion": "success"
   }

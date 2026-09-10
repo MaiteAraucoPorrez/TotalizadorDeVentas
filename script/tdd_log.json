@@ -964,9 +964,23 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7b95ee597df1874af367fa7396599cda43875c95",
     "commitName": "test: agregar prueba costo de envio para tramo 21-40",
     "commitTimestamp": 1788998388995,
     "testId": 54
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1788998783955,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar prueba costo de envio para tramo 41-80",
+    "commitTimestamp": 1788999329392,
+    "testId": 55
   }
 ]
