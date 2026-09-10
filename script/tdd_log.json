@@ -1302,9 +1302,31 @@
     "testId": 69
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8f975aeae4e3c4f216b54927dacbc1db5c2b11c1",
     "commitName": "feat: aplicar descuento de envio al costo de envio total",
     "commitTimestamp": 1789018879729,
     "testId": 69
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 1,
+    "numTotalTests": 49,
+    "timestamp": 1789018938376,
+    "success": false,
+    "testId": 70
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1789018981311,
+    "success": true,
+    "testId": 70
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: incluir calculo de costo de envio total en precio total",
+    "commitTimestamp": 1789019129078,
+    "testId": 70
   }
 ]

@@ -236,4 +236,9 @@ describe("Totalizar", () => {
   expect(totalizador.calcularCostoEnvioTotal()).toBeCloseTo(69.65); // 70 - 0.35
 });
 
+it("deberia calcular el precio total incluyendo el descuento de envio por tipo de cliente", () => {
+    const totalizador = new Totalizador(20, 3, "CA", "Alimentos", 15, "Recurrente");
+    expect(totalizador.calcularPrecioTotal()).toEqual(133.4); //60 +4.95 +0 -0 -1.2 + 69.65
+  });
+
 });

@@ -141,9 +141,10 @@ class Totalizador {
         const descuento = this.calcularDescuento();
         const impuestoCategoria = this.calcularImpuestoCategoria();
         const descuentoCategoria = this.calcularDescuentoCategoria();
-        const costoEnvioBruto = this.calcularCostoEnvioBruto();
+        const costoEnvioTotal = this.calcularCostoEnvioTotal();
 
-        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria + costoEnvioBruto;
+
+        return precioNeto + impuesto + impuestoCategoria - descuento - descuentoCategoria + costoEnvioTotal;
     }
 }
 export default Totalizador;

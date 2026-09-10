@@ -1311,12 +1311,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8f975aeae4e3c4f216b54927dacbc1db5c2b11c1",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T05:41:18.000Z",
       "message": "feat: aplicar descuento de envio al costo de envio total",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/8f975aeae4e3c4f216b54927dacbc1db5c2b11c1"
     },
     "stats": {
       "total": 11,
@@ -1326,6 +1326,25 @@
     },
     "coverage": 97.14,
     "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T05:45:27.000Z",
+      "message": "feat: incluir calculo de costo de envio total en precio total",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.14,
+    "test_count": 49,
     "failed_tests": 0,
     "conclusion": "success"
   }
