@@ -1524,9 +1524,23 @@
     "testId": 82
   },
   {
-    "commitId": "HEAD",
+    "commitId": "51a4a4b24171cae5086f4e482299a41cee4c806e",
     "commitName": "fix: manejar precio invalido (NaN) como informacion faltante",
     "commitTimestamp": 1789024296897,
     "testId": 82
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1789026083449,
+    "success": true,
+    "testId": 83
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: extraer calculo de monto por porcentaje a metodo comun",
+    "commitTimestamp": 1789026138315,
+    "testId": 83
   }
 ]

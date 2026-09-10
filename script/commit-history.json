@@ -1558,12 +1558,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "51a4a4b24171cae5086f4e482299a41cee4c806e",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T07:11:35.000Z",
       "message": "fix: manejar precio invalido (NaN) como informacion faltante",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/51a4a4b24171cae5086f4e482299a41cee4c806e"
     },
     "stats": {
       "total": 8,
@@ -1572,6 +1572,25 @@
       "date": "2026-09-10"
     },
     "coverage": 96.25,
+    "test_count": 55,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T07:42:17.000Z",
+      "message": "refactor: extraer calculo de monto por porcentaje a metodo comun",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 8,
+      "deletions": 8,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.1,
     "test_count": 55,
     "failed_tests": 0,
     "conclusion": "success"

@@ -64,6 +64,10 @@ class Totalizador {
         return null;
     }
 
+    calcularMontoPorPorcentaje(porcentaje) {
+        return this.calcularPrecioNeto() * (porcentaje / 100);
+    }
+
     calcularPrecioNeto() {
         return this.cantidad * this.precioUnitario;
     }
@@ -73,8 +77,7 @@ class Totalizador {
     }
 
     calcularImpuesto() {
-        const porcentajeImpuesto = this.obtenerPorcentajeImpuesto();
-        return this.calcularPrecioNeto() * (porcentajeImpuesto / 100);
+        return this.calcularMontoPorPorcentaje(this.obtenerPorcentajeImpuesto());
     }
 
     obtenerPorcentajeDescuento() {
@@ -89,8 +92,7 @@ class Totalizador {
     }
 
     calcularDescuento() {
-        const porcentajeDescuento = this.obtenerPorcentajeDescuento();
-        return this.calcularPrecioNeto() * (porcentajeDescuento / 100);
+        return this.calcularMontoPorPorcentaje(this.obtenerPorcentajeDescuento());
     }
 
     obtenerPorcentajeImpuestoAdicionalCategoria() {
@@ -98,8 +100,7 @@ class Totalizador {
     }
 
     calcularImpuestoCategoria() {
-        const porcentajeAdicionalCategoria = this.obtenerPorcentajeImpuestoAdicionalCategoria();
-        return this.calcularPrecioNeto() * (porcentajeAdicionalCategoria / 100);
+        return this.calcularMontoPorPorcentaje(this.obtenerPorcentajeImpuestoAdicionalCategoria());
     }
 
     obtenerPorcentajeDescuentoAdicionalCategoria() {
@@ -107,8 +108,7 @@ class Totalizador {
     }
 
     calcularDescuentoCategoria() {
-        const porcentajeDescuentoAdicionalCategoria = this.obtenerPorcentajeDescuentoAdicionalCategoria();
-        return this.calcularPrecioNeto() * (porcentajeDescuentoAdicionalCategoria / 100);
+        return this.calcularMontoPorPorcentaje(this.obtenerPorcentajeDescuentoAdicionalCategoria());
     }
 
     obtenerCostoEnvioUnidad() {
