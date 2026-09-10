@@ -26,6 +26,13 @@ const DESCUENTO_ADICIONAL_CATEGORIA_DE_PRODUCTO = {
     "Vestimenta": 0
 }
 
+const DESCUENTO_ENVIO_POR_TIPO_CLIENTE = {
+    "Normal": 0,
+    "Recurrente": 0.5,
+    "Antiguo Recurrente": 1,
+    "Especial": 1.5,
+};
+
 class Totalizador {
   constructor(cantidad, precioUnitario, estado, categoria, peso, tipoCliente) {
     this.cantidad = cantidad;
@@ -114,13 +121,6 @@ class Totalizador {
     }
 
     obtenerPorcentajeDescuentoTipoCliente() {
-        const DESCUENTO_ENVIO_POR_TIPO_CLIENTE = {
-            "Normal": 0,
-            "Recurrente": 0.5,
-            "Antiguo Recurrente": 1,
-            "Especial": 1.5,
-        };
-
         return DESCUENTO_ENVIO_POR_TIPO_CLIENTE[this.tipoCliente] || 0;
     }
 

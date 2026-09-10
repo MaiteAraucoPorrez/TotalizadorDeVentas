@@ -1235,17 +1235,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e697bff39ecf966564d32ca8ec589e4f4cd927fc",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T04:50:14.000Z",
       "message": "test: agregar prueba descuento envio para Antiguo Recurrente",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/e697bff39ecf966564d32ca8ec589e4f4cd927fc"
     },
     "stats": {
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.92,
+    "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T04:52:10.000Z",
+      "message": "refactor: implementar diccionario de descuentos de envio por tipo cliente fuera del metodo",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 7,
+      "deletions": 7,
       "date": "2026-09-10"
     },
     "coverage": 96.92,

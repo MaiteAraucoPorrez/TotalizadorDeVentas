@@ -1190,9 +1190,23 @@
     "testId": 65
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e697bff39ecf966564d32ca8ec589e4f4cd927fc",
     "commitName": "test: agregar prueba descuento envio para Antiguo Recurrente",
     "commitTimestamp": 1789015814994,
     "testId": 65
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789015862955,
+    "success": true,
+    "testId": 66
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: implementar diccionario de descuentos de envio por tipo cliente fuera del metodo",
+    "commitTimestamp": 1789015931510,
+    "testId": 66
   }
 ]
