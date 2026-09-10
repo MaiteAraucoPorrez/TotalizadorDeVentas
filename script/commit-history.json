@@ -1539,12 +1539,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0ab580b588d992f6d708d92cbcc7b8f66777d116",
     "author": "Maite Arauco",
     "commit": {
       "date": "2026-09-10T07:09:41.000Z",
       "message": "fix: manejar cantidad invalida (NaN) como informacion faltante",
-      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/0ab580b588d992f6d708d92cbcc7b8f66777d116"
     },
     "stats": {
       "total": 7,
@@ -1554,6 +1554,25 @@
     },
     "coverage": 96.25,
     "test_count": 54,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maite Arauco",
+    "commit": {
+      "date": "2026-09-10T07:11:35.000Z",
+      "message": "fix: manejar precio invalido (NaN) como informacion faltante",
+      "url": "https://github.com/MaiteAraucoPorrez/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.25,
+    "test_count": 55,
     "failed_tests": 0,
     "conclusion": "success"
   }

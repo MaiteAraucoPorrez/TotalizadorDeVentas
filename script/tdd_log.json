@@ -1494,9 +1494,39 @@
     "testId": 81
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0ab580b588d992f6d708d92cbcc7b8f66777d116",
     "commitName": "fix: manejar cantidad invalida (NaN) como informacion faltante",
     "commitTimestamp": 1789024183183,
     "testId": 81
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 0,
+    "numTotalTests": 54,
+    "timestamp": 1789024241040,
+    "success": true,
+    "testId": 82
+  },
+  {
+    "numPassedTests": 54,
+    "failedTests": 1,
+    "numTotalTests": 55,
+    "timestamp": 1789024248557,
+    "success": false,
+    "testId": 82
+  },
+  {
+    "numPassedTests": 55,
+    "failedTests": 0,
+    "numTotalTests": 55,
+    "timestamp": 1789024261598,
+    "success": true,
+    "testId": 82
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: manejar precio invalido (NaN) como informacion faltante",
+    "commitTimestamp": 1789024296897,
+    "testId": 82
   }
 ]

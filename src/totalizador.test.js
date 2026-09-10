@@ -265,4 +265,10 @@ describe("Totalizar", () => {
     const totalizador = new Totalizador(NaN, 3, "CA");
     expect(totalizador.validarCantidad()).toEqual("Error: la cantidad debe ser mayor a cero");
   });
+
+  it("deberia mostrar error si el precio no es un numero valido", () => {
+    const totalizador = new Totalizador(20, NaN, "CA");
+    expect(totalizador.validarPrecio()).toEqual("Error: el precio debe ser mayor a cero");
+  });
+
 });

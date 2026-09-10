@@ -36,7 +36,7 @@ const DESCUENTO_ENVIO_POR_TIPO_CLIENTE = {
 class Totalizador {
   constructor(cantidad, precioUnitario, estado, categoria, peso, tipoCliente) {
     this.cantidad = cantidad || 0;
-    this.precioUnitario = precioUnitario;
+    this.precioUnitario = precioUnitario || 0;
     this.estado = estado;
     this.categoria = categoria;
     this.peso = peso || 0;
