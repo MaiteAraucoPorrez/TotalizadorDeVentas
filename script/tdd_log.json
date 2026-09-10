@@ -1102,9 +1102,23 @@
     "testId": 61
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4feeabd883214b77916f4b74c28ad892991a8adc",
     "commitName": "feat: mostrar costo de envio y actualizar precio total en pantalla",
     "commitTimestamp": 1789013261040,
     "testId": 61
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1789014411024,
+    "success": true,
+    "testId": 62
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar select de tipo de cliente con Normal por defecto",
+    "commitTimestamp": 1789014861974,
+    "testId": 62
   }
 ]
